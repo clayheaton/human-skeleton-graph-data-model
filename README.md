@@ -2,7 +2,9 @@
 
 This repository contains a graph model of the human skeleton, mapping 206 bones of the skeleton to the body regions to which they belong and, where appropriate, to each other with "proximal" and "distal" connections. Where proximal and distal are not appropriate descriptors, nearby or connecting bones are considered "adjacent."
 
-The data was entered by me (Clay Heaton) into [Airtable](https://airtable.com) and exported into [NetworkX](https://networkx.github.io/documentation/stable/index.html) via the Airtable API. The Airtable base was exported into `bones.csv` and `regions.csv`, included here. You can view the original data in Airtable (and clone it into a 'base' of your own) by [visiting this link](https://airtable.com/shr2jsqWd6vE9zdiv).
+The data was entered by me (Clay Heaton) into [Airtable](https://airtable.com) and exported into [NetworkX](https://networkx.github.io/documentation/stable/index.html) via the Airtable API. The Airtable base was exported into `airtable_bones.csv` and `airtable_regions.csv`, included here. You can view the original data in Airtable (and clone it into a 'base' of your own) by [visiting this link](https://airtable.com/shr2jsqWd6vE9zdiv).
+
+The file `directed_node_link_graph.json` contains a JSON representation of the graph in the format [used by this D3 example, by Mike Bostock](https://observablehq.com/@d3/force-directed-graph). The NetworkX documentation for importing and exporting this JSON format can be found [on this page](https://networkx.github.io/documentation/stable/reference/readwrite/json_graph.html).
 
 There are three types of nodes:
 
