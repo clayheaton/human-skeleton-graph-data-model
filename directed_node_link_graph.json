@@ -4,160 +4,189 @@
     "graph": {},
     "nodes": [
         {
+            "key": "kRegion_ArmLeft",
             "name": "Left Arm",
             "node_type": "region",
             "side": "left",
             "id": 1009
         },
         {
+            "key": "kRegion_Head",
             "name": "Head",
             "node_type": "super_region",
             "id": 2001
         },
         {
+            "key": "kRegion_LegRight",
             "name": "Right Leg",
             "node_type": "region",
             "side": "right",
             "id": 1014
         },
         {
+            "key": "kRegion_EarLeft",
             "name": "Left Ear",
             "node_type": "region",
             "side": "left",
             "id": 1017
         },
         {
+            "key": "kRegion_Spine",
             "name": "Spine",
             "node_type": "super_region",
             "id": 2004
         },
         {
+            "key": "kRegion_ShoulderRight",
             "name": "Right Shoulder",
             "node_type": "region",
             "side": "right",
             "id": 1006
         },
         {
+            "key": "kRegion_FootRight",
             "name": "Right Foot",
             "node_type": "region",
             "side": "right",
             "id": 1016
         },
         {
+            "key": "kRegion_RibcageRight",
             "name": "Right Ribcage",
             "node_type": "region",
             "side": "right",
             "id": 1020
         },
         {
+            "key": "kRegion_Neck",
             "name": "Neck",
             "node_type": "region",
             "id": 1001
         },
         {
+            "key": "kRegion_EarRight",
             "name": "Right Ear",
             "node_type": "region",
             "side": "right",
             "id": 1018
         },
         {
+            "key": "kRegion_Hand",
             "name": "Hand",
             "node_type": "super_region",
             "id": 2006
         },
         {
+            "key": "kRegion_Shoulder",
             "name": "Shoulder",
             "node_type": "super_region",
             "id": 2003
         },
         {
+            "key": "kRegion_Face",
             "name": "Face",
             "node_type": "region",
             "id": 1005
         },
         {
+            "key": "kRegion_RibcageLeft",
             "name": "Left Ribcage",
             "node_type": "region",
             "side": "left",
             "id": 1019
         },
         {
+            "key": "kRegion_Arm",
             "name": "Arm",
             "node_type": "super_region",
             "id": 2005
         },
         {
+            "key": "kRegion_Ear",
             "name": "Ear",
             "node_type": "super_region",
             "id": 2002
         },
         {
+            "key": "kRegion_Back",
             "name": "Back",
             "node_type": "region",
             "id": 1008
         },
         {
+            "key": "kRegion_Chest",
             "name": "Chest",
             "node_type": "region",
             "id": 1002
         },
         {
+            "key": "kRegion_FootLeft",
             "name": "Left Foot",
             "node_type": "region",
             "side": "left",
             "id": 1015
         },
         {
+            "key": "kRegion_HandLeft",
             "name": "Left Hand",
             "node_type": "region",
             "side": "left",
             "id": 1011
         },
         {
+            "key": "kRegion_ShoulderLeft",
             "name": "Left Shoulder",
             "node_type": "region",
             "side": "left",
             "id": 1007
         },
         {
+            "key": "kRegion_Leg",
             "name": "Leg",
             "node_type": "super_region",
             "id": 2007
         },
         {
+            "key": "kRegion_LegLeft",
             "name": "Left Leg",
             "node_type": "region",
             "side": "left",
             "id": 1013
         },
         {
+            "key": "kRegion_ArmRight",
             "name": "Right Arm",
             "node_type": "region",
             "side": "right",
             "id": 1010
         },
         {
+            "key": "kRegion_Pelvis",
             "name": "Pelvis",
             "node_type": "region",
             "id": 1003
         },
         {
+            "key": "kRegion_Foot",
             "name": "Foot",
             "node_type": "super_region",
             "id": 2008
         },
         {
+            "key": "kRegion_Skull",
             "name": "Skull",
             "node_type": "region",
             "id": 1004
         },
         {
+            "key": "kRegion_HandRight",
             "name": "Right Hand",
             "node_type": "region",
             "side": "right",
             "id": 1012
         },
         {
+            "key": "kEar_IncusRight",
             "name": "Incus",
             "node_type": "bone",
             "readable_name": "Right Incus",
@@ -165,6 +194,7 @@
             "id": 26
         },
         {
+            "key": "kHead_NasalBoneRight",
             "name": "Nasal",
             "node_type": "bone",
             "readable_name": "Right Nasal Bone",
@@ -172,6 +202,7 @@
             "id": 17
         },
         {
+            "key": "kFoot_IntermediatePhalanx03Left",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Left Intermediate Phalanx 2",
@@ -179,6 +210,7 @@
             "id": 190
         },
         {
+            "key": "kFoot_ProximalPhalanx05Left",
             "name": "Phalanx 5",
             "node_type": "bone",
             "readable_name": "Left Proximal Phalanx 5",
@@ -186,6 +218,7 @@
             "id": 183
         },
         {
+            "key": "kHand_LunateBoneRight",
             "name": "Lunate",
             "node_type": "bone",
             "readable_name": "Right Lunate Bone",
@@ -193,6 +226,7 @@
             "id": 94
         },
         {
+            "key": "kChest_Rib07Right",
             "name": "Rib 7",
             "node_type": "bone",
             "readable_name": "Right Rib 7",
@@ -200,6 +234,7 @@
             "id": 53
         },
         {
+            "key": "kFoot_NavicularBoneLeft",
             "name": "Navicular",
             "node_type": "bone",
             "readable_name": "Left Navicular Bone",
@@ -207,6 +242,7 @@
             "id": 159
         },
         {
+            "key": "kFoot_IntermediateCuneiformBoneLeft",
             "name": "Cuneiform",
             "node_type": "bone",
             "readable_name": "Left Intermediate Cuneiform Bone",
@@ -214,6 +250,7 @@
             "id": 163
         },
         {
+            "key": "kChest_Rib10Left",
             "name": "Rib 10",
             "node_type": "bone",
             "readable_name": "Left Rib 10",
@@ -221,6 +258,7 @@
             "id": 44
         },
         {
+            "key": "kHand_MetacarpalBone04Right",
             "name": "Metacarpal 4",
             "node_type": "bone",
             "readable_name": "Right Metacarpal 4 Bone",
@@ -228,6 +266,7 @@
             "id": 115
         },
         {
+            "key": "kChest_Rib03Right",
             "name": "Rib 3",
             "node_type": "bone",
             "readable_name": "Right Rib 3",
@@ -235,6 +274,7 @@
             "id": 49
         },
         {
+            "key": "kShoulder_ClavicleRight",
             "name": "Clavicle",
             "node_type": "bone",
             "readable_name": "Right Clavicle",
@@ -242,6 +282,7 @@
             "id": 33
         },
         {
+            "key": "kHand_TrapeziumLeft",
             "name": "Trapezium",
             "node_type": "bone",
             "readable_name": "Left Trapezium",
@@ -249,6 +290,7 @@
             "id": 99
         },
         {
+            "key": "kHand_ProximalPhalanx05Left",
             "name": "Phalanx 5",
             "node_type": "bone",
             "readable_name": "Left Proximal Phalanx 5",
@@ -257,6 +299,7 @@
             "id": 121
         },
         {
+            "key": "kChest_Rib05Right",
             "name": "Rib 5",
             "node_type": "bone",
             "readable_name": "Right Rib 5",
@@ -264,6 +307,7 @@
             "id": 51
         },
         {
+            "key": "kVertebral_CervicalVertebrae02",
             "name": "C2",
             "node_type": "bone",
             "readable_name": "C2",
@@ -271,12 +315,14 @@
             "id": 60
         },
         {
+            "key": "kHead_OccipitalBone",
             "name": "Occipital",
             "node_type": "bone",
             "readable_name": "Occipital Bone",
             "id": 6
         },
         {
+            "key": "kHand_DistalPhalanx03Left",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Left Distal Phalanx 3",
@@ -285,18 +331,21 @@
             "id": 137
         },
         {
+            "key": "kHead_Vomer",
             "name": "Vomer",
             "node_type": "bone",
             "readable_name": "Vomer",
             "id": 20
         },
         {
+            "key": "kVertebral_LumbarVertebrae02",
             "name": "L2",
             "node_type": "bone",
             "readable_name": "L2",
             "id": 79
         },
         {
+            "key": "kEar_MalleusRight",
             "name": "Malleus",
             "node_type": "bone",
             "readable_name": "Right Malleus",
@@ -304,6 +353,7 @@
             "id": 24
         },
         {
+            "key": "kHand_DistalPhalanx02Right",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Right Distal Phalanx 2",
@@ -312,6 +362,7 @@
             "id": 141
         },
         {
+            "key": "kFoot_TalusRight",
             "name": "Talus",
             "node_type": "bone",
             "readable_name": "Right Talus",
@@ -319,6 +370,7 @@
             "id": 158
         },
         {
+            "key": "kHand_IntermediatePhalanx03Left",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Left Intermediate Phalanx 3",
@@ -327,6 +379,7 @@
             "id": 129
         },
         {
+            "key": "kHead_ZygomaticBoneRight",
             "name": "Zygomatic",
             "node_type": "bone",
             "readable_name": "Right Zygomatic Bone",
@@ -334,6 +387,7 @@
             "id": 15
         },
         {
+            "key": "kFoot_LateralCuneiformBoneRight",
             "name": "Cuneiform",
             "node_type": "bone",
             "readable_name": "Right Lateral Cuneiform Bone",
@@ -341,12 +395,14 @@
             "id": 166
         },
         {
+            "key": "kHead_SphenoidBone",
             "name": "Sphenoid",
             "node_type": "bone",
             "readable_name": "Sphenoid Bone",
             "id": 7
         },
         {
+            "key": "kHand_PisiformBoneLeft",
             "name": "Pisiform",
             "node_type": "bone",
             "readable_name": "Left Pisiform Bone",
@@ -354,6 +410,7 @@
             "id": 97
         },
         {
+            "key": "kHead_TemporalBoneLeft",
             "name": "Temporal",
             "node_type": "bone",
             "readable_name": "Left Temporal Bone",
@@ -361,6 +418,7 @@
             "id": 4
         },
         {
+            "key": "kShoulder_ScapulaLeft",
             "name": "Scapula",
             "node_type": "bone",
             "readable_name": "Left Scapula",
@@ -368,6 +426,7 @@
             "id": 30
         },
         {
+            "key": "kChest_Rib12Right",
             "name": "Rib 12",
             "node_type": "bone",
             "readable_name": "Right Rib 12",
@@ -375,6 +434,7 @@
             "id": 58
         },
         {
+            "key": "kHand_IntermediatePhalanx03Right",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Right Intermediate Phalanx 3",
@@ -383,6 +443,7 @@
             "id": 133
         },
         {
+            "key": "kFoot_ProximalPhalanx02Left",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Left Proximal Phalanx 2",
@@ -390,6 +451,7 @@
             "id": 180
         },
         {
+            "key": "kHand_MetacarpalBone02Right",
             "name": "Metacarpal 2",
             "node_type": "bone",
             "readable_name": "Right Metacarpal 2 Bone",
@@ -397,6 +459,7 @@
             "id": 113
         },
         {
+            "key": "kChest_Rib10Right",
             "name": "Rib 10",
             "node_type": "bone",
             "readable_name": "Right Rib 10",
@@ -404,6 +467,7 @@
             "id": 56
         },
         {
+            "key": "kFoot_DistalPhalanx01Right",
             "name": "Phalanx 1",
             "node_type": "bone",
             "readable_name": "Right Distal Phalanx 1",
@@ -411,6 +475,7 @@
             "id": 202
         },
         {
+            "key": "kFoot_IntermediatePhalanx05Right",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Right Intermediate Phalanx 4",
@@ -418,6 +483,7 @@
             "id": 196
         },
         {
+            "key": "kHand_MetacarpalBone05Right",
             "name": "Metacarpal 5",
             "node_type": "bone",
             "readable_name": "Right Metacarpal 5 Bone",
@@ -425,12 +491,14 @@
             "id": 116
         },
         {
+            "key": "kVertebral_ThoracicVertebrae08",
             "name": "T8",
             "node_type": "bone",
             "readable_name": "T8",
             "id": 73
         },
         {
+            "key": "kChest_Rib08Left",
             "name": "Rib 8",
             "node_type": "bone",
             "readable_name": "Left Rib 8",
@@ -438,6 +506,7 @@
             "id": 42
         },
         {
+            "key": "kHand_ProximalPhalanx03Left",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Left Proximal Phalanx 3",
@@ -446,6 +515,7 @@
             "id": 119
         },
         {
+            "key": "kChest_Rib09Left",
             "name": "Rib 9",
             "node_type": "bone",
             "readable_name": "Left Rib 9",
@@ -453,6 +523,7 @@
             "id": 43
         },
         {
+            "key": "kShoulder_ClavicleLeft",
             "name": "Clavicle",
             "node_type": "bone",
             "readable_name": "Left Clavicle",
@@ -460,6 +531,7 @@
             "id": 32
         },
         {
+            "key": "kChest_Rib06Left",
             "name": "Rib 6",
             "node_type": "bone",
             "readable_name": "Left Rib 6",
@@ -467,6 +539,7 @@
             "id": 40
         },
         {
+            "key": "kHand_MetacarpalBone03Left",
             "name": "Metacarpal 3",
             "node_type": "bone",
             "readable_name": "Left Metacarpal 3 Bone",
@@ -474,6 +547,7 @@
             "id": 109
         },
         {
+            "key": "kFoot_CuboidBoneLeft",
             "name": "Cuboid",
             "node_type": "bone",
             "readable_name": "Left Cuboid Bone",
@@ -481,6 +555,7 @@
             "id": 167
         },
         {
+            "key": "kPelvis_InnominateBoneRight",
             "name": "Innominate",
             "node_type": "bone",
             "readable_name": "Right Innominate Bone",
@@ -488,6 +563,7 @@
             "id": 146
         },
         {
+            "key": "kHead_InferiorNasalConchaeLeft",
             "name": "Nasal Conchae",
             "node_type": "bone",
             "readable_name": "Left Nasal Conchae",
@@ -495,6 +571,7 @@
             "id": 21
         },
         {
+            "key": "kFoot_ProximalPhalanx01Left",
             "name": "Phalanx 1",
             "node_type": "bone",
             "readable_name": "Left Proximal Phalanx 1",
@@ -502,6 +579,7 @@
             "id": 179
         },
         {
+            "key": "kChest_Rib11Left",
             "name": "Rib 11",
             "node_type": "bone",
             "readable_name": "Left Rib 11",
@@ -509,6 +587,7 @@
             "id": 45
         },
         {
+            "key": "kHand_ProximalPhalanx03Right",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Right Proximal Phalanx 3",
@@ -517,6 +596,7 @@
             "id": 124
         },
         {
+            "key": "kHand_IntermediatePhalanx05Right",
             "name": "Phalanx 5",
             "node_type": "bone",
             "readable_name": "Right Intermediate Phalanx 5",
@@ -525,6 +605,7 @@
             "id": 131
         },
         {
+            "key": "kLeg_FemurRight",
             "name": "Femur",
             "node_type": "bone",
             "readable_name": "Right Femur",
@@ -532,6 +613,7 @@
             "id": 148
         },
         {
+            "key": "kFoot_DistalPhalanx04Right",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Right Distal Phalanx 4",
@@ -539,6 +621,7 @@
             "id": 205
         },
         {
+            "key": "kHand_MetacarpalBone01Left",
             "name": "Metacarpal 1",
             "node_type": "bone",
             "readable_name": "Left Metacarpal 1 Bone",
@@ -546,6 +629,7 @@
             "id": 107
         },
         {
+            "key": "kHand_IntermediatePhalanx02Right",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Right Intermediate Phalanx 2",
@@ -554,6 +638,7 @@
             "id": 132
         },
         {
+            "key": "kHead_InferiorNasalConchaeRight",
             "name": "Nasal Conchae",
             "node_type": "bone",
             "readable_name": "Right Nasal Conchae",
@@ -561,6 +646,7 @@
             "id": 22
         },
         {
+            "key": "kHand_DistalPhalanx03Right",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Right Distal Phalanx 3",
@@ -569,6 +655,7 @@
             "id": 142
         },
         {
+            "key": "kFoot_TalusLeft",
             "name": "Talus",
             "node_type": "bone",
             "readable_name": "Left Talus",
@@ -576,6 +663,7 @@
             "id": 157
         },
         {
+            "key": "kHand_HamateBoneLeft",
             "name": "Hamate",
             "node_type": "bone",
             "readable_name": "Left Hamate Bone",
@@ -583,6 +671,7 @@
             "id": 105
         },
         {
+            "key": "kFoot_CuboidBoneRight",
             "name": "Cuboid",
             "node_type": "bone",
             "readable_name": "Right Cuboid Bone",
@@ -590,6 +679,7 @@
             "id": 168
         },
         {
+            "key": "kChest_Rib12Left",
             "name": "Rib 12",
             "node_type": "bone",
             "readable_name": "Left Rib 12",
@@ -597,6 +687,7 @@
             "id": 46
         },
         {
+            "key": "kFoot_MetatarsalBone01Right",
             "name": "Metatarsal 1",
             "node_type": "bone",
             "readable_name": "Right Metatarsal 1 Bone",
@@ -604,18 +695,21 @@
             "id": 174
         },
         {
+            "key": "kVertebral_ThoracicVertebrae07",
             "name": "T7",
             "node_type": "bone",
             "readable_name": "T7",
             "id": 72
         },
         {
+            "key": "kThroat_Hyoid",
             "name": "Hyoid",
             "node_type": "bone",
             "readable_name": "Hyoid",
             "id": 29
         },
         {
+            "key": "kFoot_MetatarsalBone03Right",
             "name": "Metatarsal 3",
             "node_type": "bone",
             "readable_name": "Right Metatarsal 3 Bone",
@@ -623,6 +717,7 @@
             "id": 176
         },
         {
+            "key": "kHead_NasalBoneLeft",
             "name": "Nasal",
             "node_type": "bone",
             "readable_name": "Left Nasal Bone",
@@ -630,6 +725,7 @@
             "id": 16
         },
         {
+            "key": "kChest_Rib01Left",
             "name": "Rib 1",
             "node_type": "bone",
             "readable_name": "Left Rib 1",
@@ -637,12 +733,14 @@
             "id": 35
         },
         {
+            "key": "kVertebral_ThoracicVertebrae03",
             "name": "T3",
             "node_type": "bone",
             "readable_name": "T3",
             "id": 68
         },
         {
+            "key": "kChest_Rib02Left",
             "name": "Rib 2",
             "node_type": "bone",
             "readable_name": "Left Rib 2",
@@ -650,6 +748,7 @@
             "id": 36
         },
         {
+            "key": "kFoot_MedialCuneiformBoneRight",
             "name": "Cuneiform",
             "node_type": "bone",
             "readable_name": "Right Medial Cuneiform Bone",
@@ -657,12 +756,14 @@
             "id": 162
         },
         {
+            "key": "kVertebral_LumbarVertebrae01",
             "name": "L1",
             "node_type": "bone",
             "readable_name": "L1",
             "id": 78
         },
         {
+            "key": "kLeg_TibiaLeft",
             "name": "Tibia",
             "node_type": "bone",
             "readable_name": "Left Tibia",
@@ -670,6 +771,7 @@
             "id": 151
         },
         {
+            "key": "kHand_ScaphoidBoneRight",
             "name": "Scaphoid",
             "node_type": "bone",
             "readable_name": "Right Scaphoid Bone",
@@ -677,6 +779,7 @@
             "id": 92
         },
         {
+            "key": "kArm_RadiusRight",
             "name": "Radius",
             "node_type": "bone",
             "readable_name": "Right Radius",
@@ -684,6 +787,7 @@
             "id": 88
         },
         {
+            "key": "kHand_TrapezoidBoneLeft",
             "name": "Trapezoid",
             "node_type": "bone",
             "readable_name": "Left Trapezoid Bone",
@@ -691,6 +795,7 @@
             "id": 101
         },
         {
+            "key": "kFoot_ProximalPhalanx01Right",
             "name": "Phalanx 1",
             "node_type": "bone",
             "readable_name": "Right Proximal Phalanx 1",
@@ -698,6 +803,7 @@
             "id": 184
         },
         {
+            "key": "kArm_RadiusLeft",
             "name": "Radius",
             "node_type": "bone",
             "readable_name": "Left Radius",
@@ -705,6 +811,7 @@
             "id": 87
         },
         {
+            "key": "kFoot_DistalPhalanx02Left",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Left Distal Phalanx 2",
@@ -712,6 +819,7 @@
             "id": 198
         },
         {
+            "key": "kChest_Rib07Left",
             "name": "Rib 7",
             "node_type": "bone",
             "readable_name": "Left Rib 7",
@@ -719,6 +827,7 @@
             "id": 41
         },
         {
+            "key": "kHand_IntermediatePhalanx02Left",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Left Intermediate Phalanx 2",
@@ -727,12 +836,14 @@
             "id": 128
         },
         {
+            "key": "kVertebral_ThoracicVertebrae02",
             "name": "T2",
             "node_type": "bone",
             "readable_name": "T2",
             "id": 67
         },
         {
+            "key": "kHead_TemporalBoneRight",
             "name": "Temporal",
             "node_type": "bone",
             "readable_name": "Right Temporal Bone",
@@ -740,6 +851,7 @@
             "id": 5
         },
         {
+            "key": "kHand_DistalPhalanx01Left",
             "name": "Phalanx 1",
             "node_type": "bone",
             "readable_name": "Left Distal Phalanx 1",
@@ -748,6 +860,7 @@
             "id": 135
         },
         {
+            "key": "kFoot_DistalPhalanx04Left",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Left Distal Phalanx 4",
@@ -755,6 +868,7 @@
             "id": 200
         },
         {
+            "key": "kFoot_MetatarsalBone03Left",
             "name": "Metatarsal 3",
             "node_type": "bone",
             "readable_name": "Left Metatarsal 3 Bone",
@@ -762,6 +876,7 @@
             "id": 171
         },
         {
+            "key": "kLeg_FemurLeft",
             "name": "Femur",
             "node_type": "bone",
             "readable_name": "Left Femur",
@@ -769,6 +884,7 @@
             "id": 147
         },
         {
+            "key": "kEar_StapesRight",
             "name": "Stapes",
             "node_type": "bone",
             "readable_name": "Right Stapes",
@@ -776,6 +892,7 @@
             "id": 28
         },
         {
+            "key": "kArm_UlnaLeft",
             "name": "Ulna",
             "node_type": "bone",
             "readable_name": "Left Ulna",
@@ -783,6 +900,7 @@
             "id": 89
         },
         {
+            "key": "kFoot_MetatarsalBone02Right",
             "name": "Metatarsal 2",
             "node_type": "bone",
             "readable_name": "Right Metatarsal 2 Bone",
@@ -790,6 +908,7 @@
             "id": 175
         },
         {
+            "key": "kFoot_DistalPhalanx02Right",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Right Distal Phalanx 2",
@@ -797,6 +916,7 @@
             "id": 203
         },
         {
+            "key": "kHead_MaxillaRight",
             "name": "Maxilla",
             "node_type": "bone",
             "readable_name": "Right Maxilla",
@@ -804,6 +924,7 @@
             "id": 11
         },
         {
+            "key": "kHand_TrapezoidBoneRight",
             "name": "Trapezoid",
             "node_type": "bone",
             "readable_name": "Right Trapezoid Bone",
@@ -811,6 +932,7 @@
             "id": 102
         },
         {
+            "key": "kFoot_MetatarsalBone05Right",
             "name": "Metatarsal 5",
             "node_type": "bone",
             "readable_name": "Right Metatarsal 5 Bone",
@@ -818,6 +940,7 @@
             "id": 178
         },
         {
+            "key": "kHand_PisiformBoneRight",
             "name": "Pisiform",
             "node_type": "bone",
             "readable_name": "Right Pisiform Bone",
@@ -825,6 +948,7 @@
             "id": 98
         },
         {
+            "key": "kFoot_ProximalPhalanx04Right",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Right Proximal Phalanx 4",
@@ -832,6 +956,7 @@
             "id": 187
         },
         {
+            "key": "kChest_Rib05Left",
             "name": "Rib 5",
             "node_type": "bone",
             "readable_name": "Left Rib 5",
@@ -839,24 +964,28 @@
             "id": 39
         },
         {
+            "key": "kVertebral_CervicalVertebrae04",
             "name": "C4",
             "node_type": "bone",
             "readable_name": "C4",
             "id": 62
         },
         {
+            "key": "kVertebral_CervicalVertebrae05",
             "name": "C5",
             "node_type": "bone",
             "readable_name": "C5",
             "id": 63
         },
         {
+            "key": "kVertebral_CervicalVertebrae06",
             "name": "C6",
             "node_type": "bone",
             "readable_name": "C6",
             "id": 64
         },
         {
+            "key": "kArm_HumerusLeft",
             "name": "Humerus",
             "node_type": "bone",
             "readable_name": "Left Humerus",
@@ -864,6 +993,7 @@
             "id": 85
         },
         {
+            "key": "kFoot_LateralCuneiformBoneLeft",
             "name": "Cuneiform",
             "node_type": "bone",
             "readable_name": "Left Lateral Cuneiform Bone",
@@ -871,6 +1001,7 @@
             "id": 165
         },
         {
+            "key": "kFoot_ProximalPhalanx04Left",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Left Proximal Phalanx 4",
@@ -878,6 +1009,7 @@
             "id": 182
         },
         {
+            "key": "kLeg_TibiaRight",
             "name": "Tibia",
             "node_type": "bone",
             "readable_name": "Right Tibia",
@@ -885,12 +1017,14 @@
             "id": 152
         },
         {
+            "key": "kVertebral_ThoracicVertebrae12",
             "name": "T12",
             "node_type": "bone",
             "readable_name": "T12",
             "id": 77
         },
         {
+            "key": "kChest_Rib01Right",
             "name": "Rib 1",
             "node_type": "bone",
             "readable_name": "Right Rib 1",
@@ -898,6 +1032,7 @@
             "id": 47
         },
         {
+            "key": "kHand_DistalPhalanx02Left",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Left Distal Phalanx 2",
@@ -906,6 +1041,7 @@
             "id": 136
         },
         {
+            "key": "kHand_DistalPhalanx04Left",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Left Distal Phalanx 4",
@@ -914,12 +1050,14 @@
             "id": 138
         },
         {
+            "key": "kVertebral_LumbarVertebrae05",
             "name": "L5",
             "node_type": "bone",
             "readable_name": "L5",
             "id": 82
         },
         {
+            "key": "kHand_TriquetralBoneRight",
             "name": "Triquetral",
             "node_type": "bone",
             "readable_name": "Right Triquetral Bone",
@@ -927,12 +1065,14 @@
             "id": 96
         },
         {
+            "key": "kHead_Mandible",
             "name": "Mandible",
             "node_type": "bone",
             "readable_name": "Mandible",
             "id": 9
         },
         {
+            "key": "kChest_Rib06Right",
             "name": "Rib 6",
             "node_type": "bone",
             "readable_name": "Right Rib 6",
@@ -940,6 +1080,7 @@
             "id": 52
         },
         {
+            "key": "kFoot_ProximalPhalanx02Right",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Right Proximal Phalanx 2",
@@ -947,6 +1088,7 @@
             "id": 185
         },
         {
+            "key": "kChest_Rib09Right",
             "name": "Rib 9",
             "node_type": "bone",
             "readable_name": "Right Rib 9",
@@ -954,6 +1096,7 @@
             "id": 55
         },
         {
+            "key": "kFoot_ProximalPhalanx03Right",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Right Proximal Phalanx 3",
@@ -961,12 +1104,14 @@
             "id": 186
         },
         {
+            "key": "kVertebral_ThoracicVertebrae06",
             "name": "T6",
             "node_type": "bone",
             "readable_name": "T6",
             "id": 71
         },
         {
+            "key": "kHand_IntermediatePhalanx05Left",
             "name": "Phalanx 5",
             "node_type": "bone",
             "readable_name": "Left Intermediate Phalanx 5",
@@ -975,12 +1120,14 @@
             "id": 127
         },
         {
+            "key": "kVertebral_ThoracicVertebrae10",
             "name": "T10",
             "node_type": "bone",
             "readable_name": "T10",
             "id": 75
         },
         {
+            "key": "kHand_ProximalPhalanx01Left",
             "name": "Phalanx 1",
             "node_type": "bone",
             "readable_name": "Left Proximal Phalanx 1",
@@ -989,6 +1136,7 @@
             "id": 117
         },
         {
+            "key": "kHand_DistalPhalanx01Right",
             "name": "Phalanx 1",
             "node_type": "bone",
             "readable_name": "Right Distal Phalanx 1",
@@ -997,6 +1145,7 @@
             "id": 140
         },
         {
+            "key": "kHead_ZygomaticBoneLeft",
             "name": "Zygomatic",
             "node_type": "bone",
             "readable_name": "Left Zygomatic Bone",
@@ -1004,6 +1153,7 @@
             "id": 14
         },
         {
+            "key": "kHand_IntermediatePhalanx04Right",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Right Intermediate Phalanx 4",
@@ -1012,6 +1162,7 @@
             "id": 134
         },
         {
+            "key": "kFoot_IntermediatePhalanx03Right",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Right Intermediate Phalanx 2",
@@ -1019,12 +1170,14 @@
             "id": 194
         },
         {
+            "key": "kChest_Sternum",
             "name": "Sternum",
             "node_type": "bone",
             "readable_name": "Sternum",
             "id": 34
         },
         {
+            "key": "kEar_IncusLeft",
             "name": "Incus",
             "node_type": "bone",
             "readable_name": "Left Incus",
@@ -1032,12 +1185,14 @@
             "id": 25
         },
         {
+            "key": "kHead_EthmoidBone",
             "name": "Ethmoid",
             "node_type": "bone",
             "readable_name": "Ethmoid Bone",
             "id": 8
         },
         {
+            "key": "kChest_Rib11Right",
             "name": "Rib 11",
             "node_type": "bone",
             "readable_name": "Right Rib 11",
@@ -1045,6 +1200,7 @@
             "id": 57
         },
         {
+            "key": "kHand_ScaphoidBoneLeft",
             "name": "Scaphoid",
             "node_type": "bone",
             "readable_name": "Left Scaphoid Bone",
@@ -1052,6 +1208,7 @@
             "id": 91
         },
         {
+            "key": "kChest_Rib04Right",
             "name": "Rib 4",
             "node_type": "bone",
             "readable_name": "Right Rib 4",
@@ -1059,6 +1216,7 @@
             "id": 50
         },
         {
+            "key": "kPelvis_InnominateBoneLeft",
             "name": "Innominate",
             "node_type": "bone",
             "readable_name": "Left Innominate Bone",
@@ -1066,6 +1224,7 @@
             "id": 145
         },
         {
+            "key": "kFoot_DistalPhalanx03Right",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Right Distal Phalanx 3",
@@ -1073,6 +1232,7 @@
             "id": 204
         },
         {
+            "key": "kHand_LunateBoneLeft",
             "name": "Lunate",
             "node_type": "bone",
             "readable_name": "Left Lunate Bone",
@@ -1080,6 +1240,7 @@
             "id": 93
         },
         {
+            "key": "kFoot_CalcaneusLeft",
             "name": "Calcaneus",
             "node_type": "bone",
             "readable_name": "Left Calcaneus",
@@ -1087,6 +1248,7 @@
             "id": 155
         },
         {
+            "key": "kHead_MaxillaLeft",
             "name": "Maxilla",
             "node_type": "bone",
             "readable_name": "Left Maxilla",
@@ -1094,6 +1256,7 @@
             "id": 10
         },
         {
+            "key": "kChest_Rib04Left",
             "name": "Rib 4",
             "node_type": "bone",
             "readable_name": "Left Rib 4",
@@ -1101,6 +1264,7 @@
             "id": 38
         },
         {
+            "key": "kHead_PalantineBoneLeft",
             "name": "Palantine",
             "node_type": "bone",
             "readable_name": "Left Palantine Bone",
@@ -1108,6 +1272,7 @@
             "id": 12
         },
         {
+            "key": "kHand_MetacarpalBone02Left",
             "name": "Metacarpal 2",
             "node_type": "bone",
             "readable_name": "Left Metacarpal 2 Bone",
@@ -1115,6 +1280,7 @@
             "id": 108
         },
         {
+            "key": "kHand_ProximalPhalanx02Left",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Left Proximal Phalanx 2",
@@ -1123,6 +1289,7 @@
             "id": 118
         },
         {
+            "key": "kVertebral_CervicalVertebrae01",
             "name": "C1",
             "node_type": "bone",
             "readable_name": "C1",
@@ -1130,12 +1297,14 @@
             "id": 59
         },
         {
+            "key": "kVertebral_LumbarVertebrae03",
             "name": "L3",
             "node_type": "bone",
             "readable_name": "L3",
             "id": 80
         },
         {
+            "key": "kFoot_MetatarsalBone05Left",
             "name": "Metatarsal 5",
             "node_type": "bone",
             "readable_name": "Left Metatarsal 5 Bone",
@@ -1143,6 +1312,7 @@
             "id": 173
         },
         {
+            "key": "kChest_Rib03Left",
             "name": "Rib 3",
             "node_type": "bone",
             "readable_name": "Left Rib 3",
@@ -1150,24 +1320,28 @@
             "id": 37
         },
         {
+            "key": "kVertebral_ThoracicVertebrae04",
             "name": "T4",
             "node_type": "bone",
             "readable_name": "T4",
             "id": 69
         },
         {
+            "key": "kVertebral_SacralVertebrae",
             "name": "Sacrum",
             "node_type": "bone",
             "readable_name": "Sacrum",
             "id": 83
         },
         {
+            "key": "kVertebral_CoccygealVertebrae",
             "name": "Coccyx",
             "node_type": "bone",
             "readable_name": "Coccyx",
             "id": 84
         },
         {
+            "key": "kFoot_MetatarsalBone04Left",
             "name": "Metatarsal 4",
             "node_type": "bone",
             "readable_name": "Left Metatarsal 4 Bone",
@@ -1175,6 +1349,7 @@
             "id": 172
         },
         {
+            "key": "kFoot_CalcaneusRight",
             "name": "Calcaneus",
             "node_type": "bone",
             "readable_name": "Right Calcaneus",
@@ -1182,6 +1357,7 @@
             "id": 156
         },
         {
+            "key": "kHand_MetacarpalBone01Right",
             "name": "Metacarpal 1",
             "node_type": "bone",
             "readable_name": "Right Metacarpal 1 Bone",
@@ -1189,6 +1365,7 @@
             "id": 112
         },
         {
+            "key": "kHand_ProximalPhalanx04Right",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Right Proximal Phalanx 4",
@@ -1197,6 +1374,7 @@
             "id": 125
         },
         {
+            "key": "kHand_IntermediatePhalanx04Left",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Left Intermediate Phalanx 4",
@@ -1205,6 +1383,7 @@
             "id": 130
         },
         {
+            "key": "kFoot_MetatarsalBone01Left",
             "name": "Metatarsal 1",
             "node_type": "bone",
             "readable_name": "Left Metatarsal 1 Bone",
@@ -1212,6 +1391,7 @@
             "id": 169
         },
         {
+            "key": "kHand_MetacarpalBone03Right",
             "name": "Metacarpal 3",
             "node_type": "bone",
             "readable_name": "Right Metacarpal 3 Bone",
@@ -1219,6 +1399,7 @@
             "id": 114
         },
         {
+            "key": "kHead_LacrimalBoneLeft",
             "name": "Lacrimal",
             "node_type": "bone",
             "readable_name": "Left Lacrimal Bone",
@@ -1226,6 +1407,7 @@
             "id": 18
         },
         {
+            "key": "kEar_StapesLeft",
             "name": "Stapes",
             "node_type": "bone",
             "readable_name": "Left Stapes",
@@ -1233,6 +1415,7 @@
             "id": 27
         },
         {
+            "key": "kHand_DistalPhalanx05Left",
             "name": "Phalanx 5",
             "node_type": "bone",
             "readable_name": "Left Distal Phalanx 5",
@@ -1241,6 +1424,7 @@
             "id": 139
         },
         {
+            "key": "kHand_CapitateBoneLeft",
             "name": "Capitate",
             "node_type": "bone",
             "readable_name": "Left Capitate Bone",
@@ -1248,6 +1432,7 @@
             "id": 103
         },
         {
+            "key": "kHand_ProximalPhalanx02Right",
             "name": "Phalanx 2",
             "node_type": "bone",
             "readable_name": "Right Proximal Phalanx 2",
@@ -1256,6 +1441,7 @@
             "id": 123
         },
         {
+            "key": "kFoot_MedialCuneiformBoneLeft",
             "name": "Cuneiform",
             "node_type": "bone",
             "readable_name": "Left Medial Cuneiform Bone",
@@ -1263,6 +1449,7 @@
             "id": 161
         },
         {
+            "key": "kFoot_IntermediatePhalanx05Left",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Left Intermediate Phalanx 4",
@@ -1270,12 +1457,14 @@
             "id": 192
         },
         {
+            "key": "kVertebral_ThoracicVertebrae09",
             "name": "T9",
             "node_type": "bone",
             "readable_name": "T9",
             "id": 74
         },
         {
+            "key": "kHead_LacrimalBoneRight",
             "name": "Lacrimal",
             "node_type": "bone",
             "readable_name": "Right Lacrimal Bone",
@@ -1283,6 +1472,7 @@
             "id": 19
         },
         {
+            "key": "kArm_HumerusRight",
             "name": "Humerus",
             "node_type": "bone",
             "readable_name": "Right Humerus",
@@ -1290,6 +1480,7 @@
             "id": 86
         },
         {
+            "key": "kHead_PalantineBoneRight",
             "name": "Palantine",
             "node_type": "bone",
             "readable_name": "Right Palantine Bone",
@@ -1297,6 +1488,7 @@
             "id": 13
         },
         {
+            "key": "kHead_ParietalBoneLeft",
             "name": "Parietal",
             "node_type": "bone",
             "readable_name": "Left Parietal Bone",
@@ -1304,6 +1496,7 @@
             "id": 2
         },
         {
+            "key": "kLeg_PatellaRight",
             "name": "Patella",
             "node_type": "bone",
             "readable_name": "Right Patella",
@@ -1311,6 +1504,7 @@
             "id": 150
         },
         {
+            "key": "kFoot_NavicularBoneRight",
             "name": "Navicular",
             "node_type": "bone",
             "readable_name": "Right Navicular Bone",
@@ -1318,6 +1512,7 @@
             "id": 160
         },
         {
+            "key": "kHand_ProximalPhalanx04Left",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Left Proximal Phalanx 4",
@@ -1326,6 +1521,7 @@
             "id": 120
         },
         {
+            "key": "kFoot_DistalPhalanx01Left",
             "name": "Phalanx 1",
             "node_type": "bone",
             "readable_name": "Left Distal Phalanx 1",
@@ -1333,6 +1529,7 @@
             "id": 197
         },
         {
+            "key": "kFoot_ProximalPhalanx05Right",
             "name": "Phalanx 5",
             "node_type": "bone",
             "readable_name": "Right Proximal Phalanx 5",
@@ -1340,6 +1537,7 @@
             "id": 188
         },
         {
+            "key": "kEar_MalleusLeft",
             "name": "Malleus",
             "node_type": "bone",
             "readable_name": "Left Malleus",
@@ -1347,6 +1545,7 @@
             "id": 23
         },
         {
+            "key": "kHand_MetacarpalBone04Left",
             "name": "Metacarpal 4",
             "node_type": "bone",
             "readable_name": "Left Metacarpal 4 Bone",
@@ -1354,6 +1553,7 @@
             "id": 110
         },
         {
+            "key": "kChest_Rib08Right",
             "name": "Rib 8",
             "node_type": "bone",
             "readable_name": "Right Rib 8",
@@ -1361,6 +1561,7 @@
             "id": 54
         },
         {
+            "key": "kArm_UlnaRight",
             "name": "Ulna",
             "node_type": "bone",
             "readable_name": "Right Ulna",
@@ -1368,6 +1569,7 @@
             "id": 90
         },
         {
+            "key": "kLeg_FibulaLeft",
             "name": "Fibula",
             "node_type": "bone",
             "readable_name": "Left Fibula",
@@ -1375,6 +1577,7 @@
             "id": 153
         },
         {
+            "key": "kFoot_DistalPhalanx03Left",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Left Distal Phalanx 3",
@@ -1382,6 +1585,7 @@
             "id": 199
         },
         {
+            "key": "kLeg_FibulaRight",
             "name": "Fibula",
             "node_type": "bone",
             "readable_name": "Right Fibula",
@@ -1389,6 +1593,7 @@
             "id": 154
         },
         {
+            "key": "kHand_ProximalPhalanx05Right",
             "name": "Phalanx 5",
             "node_type": "bone",
             "readable_name": "Right Proximal Phalanx 5",
@@ -1397,6 +1602,7 @@
             "id": 126
         },
         {
+            "key": "kFoot_IntermediatePhalanx04Left",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Left Intermediate Phalanx 3",
@@ -1404,6 +1610,7 @@
             "id": 191
         },
         {
+            "key": "kFoot_IntermediatePhalanx04Right",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Right Intermediate Phalanx 3",
@@ -1411,6 +1618,7 @@
             "id": 195
         },
         {
+            "key": "kHand_DistalPhalanx04Right",
             "name": "Phalanx 4",
             "node_type": "bone",
             "readable_name": "Right Distal Phalanx 4",
@@ -1419,12 +1627,14 @@
             "id": 143
         },
         {
+            "key": "kVertebral_ThoracicVertebrae05",
             "name": "T5",
             "node_type": "bone",
             "readable_name": "T5",
             "id": 70
         },
         {
+            "key": "kHand_DistalPhalanx05Right",
             "name": "Phalanx 5",
             "node_type": "bone",
             "readable_name": "Right Distal Phalanx 5",
@@ -1433,6 +1643,7 @@
             "id": 144
         },
         {
+            "key": "kFoot_DistalPhalanx05Right",
             "name": "Phalanx 5",
             "node_type": "bone",
             "readable_name": "Right Distal Phalanx 5",
@@ -1440,12 +1651,14 @@
             "id": 206
         },
         {
+            "key": "kVertebral_ThoracicVertebrae11",
             "name": "T11",
             "node_type": "bone",
             "readable_name": "T11",
             "id": 76
         },
         {
+            "key": "kChest_Rib02Right",
             "name": "Rib 2",
             "node_type": "bone",
             "readable_name": "Right Rib 2",
@@ -1453,6 +1666,7 @@
             "id": 48
         },
         {
+            "key": "kFoot_MetatarsalBone04Right",
             "name": "Metatarsal 4",
             "node_type": "bone",
             "readable_name": "Right Metatarsal 4 Bone",
@@ -1460,6 +1674,7 @@
             "id": 177
         },
         {
+            "key": "kHand_TriquetralBoneLeft",
             "name": "Triquetral",
             "node_type": "bone",
             "readable_name": "Left Triquetral Bone",
@@ -1467,18 +1682,21 @@
             "id": 95
         },
         {
+            "key": "kVertebral_ThoracicVertebrae01",
             "name": "T1",
             "node_type": "bone",
             "readable_name": "T1",
             "id": 66
         },
         {
+            "key": "kVertebral_CervicalVertebrae03",
             "name": "C3",
             "node_type": "bone",
             "readable_name": "C3",
             "id": 61
         },
         {
+            "key": "kHand_TrapeziumRight",
             "name": "Trapezium",
             "node_type": "bone",
             "readable_name": "Right Trapezium",
@@ -1486,6 +1704,7 @@
             "id": 100
         },
         {
+            "key": "kFoot_IntermediatePhalanx02Left",
             "name": "Phalanx 1",
             "node_type": "bone",
             "readable_name": "Left Intermediate Phalanx 1",
@@ -1493,6 +1712,7 @@
             "id": 189
         },
         {
+            "key": "kHand_ProximalPhalanx01Right",
             "name": "Phalanx 1",
             "node_type": "bone",
             "readable_name": "Right Proximal Phalanx 1",
@@ -1501,6 +1721,7 @@
             "id": 122
         },
         {
+            "key": "kHand_MetacarpalBone05Left",
             "name": "Metacarpal 5",
             "node_type": "bone",
             "readable_name": "Left Metacarpal 5 Bone",
@@ -1508,6 +1729,7 @@
             "id": 111
         },
         {
+            "key": "kHand_HamateBoneRight",
             "name": "Hamate",
             "node_type": "bone",
             "readable_name": "Right Hamate Bone",
@@ -1515,6 +1737,7 @@
             "id": 106
         },
         {
+            "key": "kHand_CapitateBoneRight",
             "name": "Capitate",
             "node_type": "bone",
             "readable_name": "Right Capitate Bone",
@@ -1522,6 +1745,7 @@
             "id": 104
         },
         {
+            "key": "kFoot_IntermediateCuneiformBoneRight",
             "name": "Cuneiform",
             "node_type": "bone",
             "readable_name": "Right Intermediate Cuneiform Bone",
@@ -1529,6 +1753,7 @@
             "id": 164
         },
         {
+            "key": "kLeg_PatellaLeft",
             "name": "Patella",
             "node_type": "bone",
             "readable_name": "Left Patella",
@@ -1536,18 +1761,21 @@
             "id": 149
         },
         {
+            "key": "kVertebral_CervicalVertebrae07",
             "name": "C7",
             "node_type": "bone",
             "readable_name": "C7",
             "id": 65
         },
         {
+            "key": "kVertebral_LumbarVertebrae04",
             "name": "L4",
             "node_type": "bone",
             "readable_name": "L4",
             "id": 81
         },
         {
+            "key": "kFoot_DistalPhalanx05Left",
             "name": "Phalanx 5",
             "node_type": "bone",
             "readable_name": "Left Distal Phalanx 5",
@@ -1555,12 +1783,14 @@
             "id": 201
         },
         {
+            "key": "kHead_FrontalBone",
             "name": "Frontal",
             "node_type": "bone",
             "readable_name": "Frontal Bone",
             "id": 1
         },
         {
+            "key": "kFoot_ProximalPhalanx03Left",
             "name": "Phalanx 3",
             "node_type": "bone",
             "readable_name": "Left Proximal Phalanx 3",
@@ -1568,6 +1798,7 @@
             "id": 181
         },
         {
+            "key": "kFoot_IntermediatePhalanx02Right",
             "name": "Phalanx 1",
             "node_type": "bone",
             "readable_name": "Right Intermediate Phalanx 1",
@@ -1575,6 +1806,7 @@
             "id": 193
         },
         {
+            "key": "kShoulder_ScapulaRight",
             "name": "Scapula",
             "node_type": "bone",
             "readable_name": "Right Scapula",
@@ -1582,6 +1814,7 @@
             "id": 31
         },
         {
+            "key": "kFoot_MetatarsalBone02Left",
             "name": "Metatarsal 2",
             "node_type": "bone",
             "readable_name": "Left Metatarsal 2 Bone",
@@ -1589,6 +1822,7 @@
             "id": 170
         },
         {
+            "key": "kHead_ParietalBoneRight",
             "name": "Parietal",
             "node_type": "bone",
             "readable_name": "Right Parietal Bone",
