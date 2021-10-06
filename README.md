@@ -48,6 +48,13 @@ edge_keys = {
 
 If you make something with the data, let me know! I'd love to see it.
 
+Here are some things I would like to do with this data if I get time:
+
+- Average size & weight of each bone
+- General shape of each bone (if that's a thing) for visualization purposes
+- Joint types
+- Some type of model for pulling bones in the same region together in a sensible manner (this skull/face, for example)
+
 LICENSE: This repository and the data it contains are in the public domain.
 
 ----
