@@ -2,6 +2,10 @@
 
 2021-10-06 Update: The original files were moved into the `old` subdirectory. While the CSV should be correct, the `directed_node_link_graph.json` file appeared to export from NetworkX with some errors. I recently recalculated and exported this into `skeleton.json`, but have yet to have time to test it properly. As a hobby project, please do not use this for scientific or medical purposes and be aware that the data may contain mistakes.
 
+Any updates, bug reports, improvements, etc. are welcome! Feel free to contact me here or @clayheaton on Twitter with any questions. 
+
+🎃
+
 ----
 
 This repository contains a graph model of the human skeleton, mapping 206 bones of the skeleton to the body regions to which they belong and, where appropriate, to each other with "proximal" and "distal" connections. Where proximal and distal are not appropriate descriptors, nearby or connecting bones are considered "adjacent."
