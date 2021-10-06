@@ -1,12 +1,58 @@
 # Skeleton-Graph
 
-2021-10-06 Update: The original files were moved into the `old` subdirectory. While the CSV should be correct, the `directed_node_link_graph.json` file appeared to export from NetworkX with some errors. I recently recalculated and exported this into `skeleton.json`, but have yet to have time to test it properly. As a hobby project, please do not use this for scientific or medical purposes and be aware that the data may contain mistakes.
+2021-10-06 Update: The original files were moved into the `old` subdirectory. While the CSV should be correct, the `directed_node_link_graph.json` file appeared to export from NetworkX with some errors. I recently recalculated and exported this into `skeleton.json`, but have yet to have time to test it properly. As a hobby project, please do not use this for scientific or medical purposes and be aware that the data and/or code may contain mistakes. I was sitting in my in-laws living room, trying to pay attention to a webinar while assembling the data.
 
 Any updates, bug reports, improvements, etc. are welcome! Feel free to contact me here or @clayheaton on Twitter with any questions. 
 
 🎃
 
+
+Nodes in `skeleton.json` should all be in this format:
+
+```
+{
+    "key": "kHand_MetacarpalBone04Right",
+    "id_number": 115,
+    "bone_name": "Metacarpal 4",
+    "side": "right",
+    "position": "",
+    "readable_name": "Right Metacarpal 4 Bone",
+    "alternate_name": ""
+}
+```
+
+Edges should all be in this format:
+
+```
+{
+    "edge_type": "adjacent_to",
+    "source": "kRegion_ArmLeft",
+    "dest": "kRegion_Hand"
+}
+```
+
+The `Transform.ipynb` file is a recent re-attempt to properly export the data to JSON.
+
+The edge types are converted from the original values using this lookup:
+
+```
+edge_keys = {
+    'proximal_bones':   'distal_to',
+    'adjacent_bones':   'adjacent_to',
+    'distal_bones':     'proximal_to',
+    'body_regions':     'part_of',
+    'adjacent_regions': 'adjacent_to',
+    'human_skeleton':   'includes'
+}
+```
+
+If you make something with the data, let me know! I'd love to see it.
+
+LICENSE: This repository and the data it contains are in the public domain.
+
 ----
+
+Everything below here is old information:
 
 This repository contains a graph model of the human skeleton, mapping 206 bones of the skeleton to the body regions to which they belong and, where appropriate, to each other with "proximal" and "distal" connections. Where proximal and distal are not appropriate descriptors, nearby or connecting bones are considered "adjacent."
 
