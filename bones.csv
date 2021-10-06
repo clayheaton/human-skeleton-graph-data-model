@@ -1,0 +1,207 @@
+﻿key,id_number,body_regions,bone_name,side,position,readable_name,alternate_name,proximal_bones,distal_bones,adjacent_bones
+kHead_FrontalBone,1,"kRegion_Head,kRegion_Skull",Frontal,,,Frontal Bone,,,,"kHead_ParietalBoneLeft,kHead_ParietalBoneRight,kHead_SphenoidBone,kHead_NasalBoneLeft,kHead_NasalBoneRight,kHead_ZygomaticBoneLeft,kHead_ZygomaticBoneRight"
+kHead_ParietalBoneLeft,2,"kRegion_Head,kRegion_Skull",Parietal,left,,Left Parietal Bone,,,,"kHead_ParietalBoneRight,kHead_TemporalBoneLeft,kHead_SphenoidBone,kHead_FrontalBone,kHead_OccipitalBone"
+kHead_ParietalBoneRight,3,"kRegion_Head,kRegion_Skull",Parietal,right,,Right Parietal Bone,,,,"kHead_ParietalBoneLeft,kHead_TemporalBoneRight,kHead_SphenoidBone,kHead_FrontalBone,kHead_OccipitalBone"
+kHead_TemporalBoneLeft,4,"kRegion_Head,kRegion_Skull",Temporal,left,,Left Temporal Bone,,,,"kHead_OccipitalBone,kHead_ParietalBoneLeft,kHead_SphenoidBone,kHead_Mandible,kEar_MalleusLeft,kEar_IncusLeft,kEar_StapesLeft"
+kHead_TemporalBoneRight,5,"kRegion_Head,kRegion_Skull",Temporal,right,,Right Temporal Bone,,,,"kHead_OccipitalBone,kHead_ParietalBoneRight,kHead_SphenoidBone,kHead_Mandible,kEar_MalleusRight,kEar_IncusRight,kEar_StapesRight"
+kHead_OccipitalBone,6,"kRegion_Head,kRegion_Skull",Occipital,,,Occipital Bone,,,,"kHead_TemporalBoneLeft,kHead_TemporalBoneRight,kHead_ParietalBoneLeft,kHead_ParietalBoneRight,kVertebral_CervicalVertebrae01"
+kHead_SphenoidBone,7,"kRegion_Head,kRegion_Skull",Sphenoid,,,Sphenoid Bone,,,,"kHead_FrontalBone,kHead_ZygomaticBoneLeft,kHead_ZygomaticBoneRight,kHead_Mandible"
+kHead_EthmoidBone,8,"kRegion_Face,kRegion_Head",Ethmoid,,,Ethmoid Bone,,,,"kHead_LacrimalBoneLeft,kHead_LacrimalBoneRight,kHead_FrontalBone,kHead_SphenoidBone,kHead_Vomer"
+kHead_Mandible,9,"kRegion_Face,kRegion_Head",Mandible,,,Mandible,,,,"kHead_TemporalBoneLeft,kHead_TemporalBoneRight,kHead_SphenoidBone,kHead_ZygomaticBoneLeft,kHead_ZygomaticBoneRight,kHead_MaxillaLeft,kHead_MaxillaRight"
+kHead_MaxillaLeft,10,"kRegion_Face,kRegion_Head",Maxilla,left,,Left Maxilla,,,,"kHead_Vomer,kHead_ZygomaticBoneLeft,kHead_Mandible,kHead_NasalBoneLeft,kHead_InferiorNasalConchaeLeft,kHead_PalantineBoneLeft"
+kHead_MaxillaRight,11,"kRegion_Face,kRegion_Head",Maxilla,right,,Right Maxilla,,,,"kHead_Vomer,kHead_ZygomaticBoneRight,kHead_Mandible,kHead_NasalBoneRight,kHead_InferiorNasalConchaeRight,kHead_PalantineBoneRight"
+kHead_PalantineBoneLeft,12,"kRegion_Face,kRegion_Head",Palantine,left,,Left Palantine Bone,,,,"kHead_Vomer,kHead_InferiorNasalConchaeLeft,kHead_MaxillaLeft"
+kHead_PalantineBoneRight,13,"kRegion_Face,kRegion_Head",Palantine,right,,Right Palantine Bone,,,,"kHead_Vomer,kHead_InferiorNasalConchaeRight,kHead_MaxillaRight"
+kHead_ZygomaticBoneLeft,14,"kRegion_Face,kRegion_Head",Zygomatic,left,,Left Zygomatic Bone,,,,"kHead_FrontalBone,kHead_SphenoidBone,kHead_TemporalBoneLeft,kHead_MaxillaLeft,kHead_Mandible"
+kHead_ZygomaticBoneRight,15,"kRegion_Face,kRegion_Head",Zygomatic,right,,Right Zygomatic Bone,,,,"kHead_FrontalBone,kHead_SphenoidBone,kHead_TemporalBoneRight,kHead_MaxillaRight,kHead_Mandible"
+kHead_NasalBoneLeft,16,"kRegion_Face,kRegion_Head",Nasal,left,,Left Nasal Bone,,,,"kHead_FrontalBone,kHead_MaxillaLeft,kHead_NasalBoneRight"
+kHead_NasalBoneRight,17,"kRegion_Face,kRegion_Head",Nasal,right,,Right Nasal Bone,,,,"kHead_FrontalBone,kHead_MaxillaRight,kHead_NasalBoneLeft"
+kHead_LacrimalBoneLeft,18,"kRegion_Face,kRegion_Head",Lacrimal,left,,Left Lacrimal Bone,,,,"kHead_InferiorNasalConchaeLeft,kHead_FrontalBone,kHead_EthmoidBone,kHead_MaxillaLeft"
+kHead_LacrimalBoneRight,19,"kRegion_Face,kRegion_Head",Lacrimal,right,,Right Lacrimal Bone,,,,"kHead_InferiorNasalConchaeRight,kHead_FrontalBone,kHead_EthmoidBone,kHead_MaxillaRight"
+kHead_Vomer,20,"kRegion_Face,kRegion_Head",Vomer,,,Vomer,,,,"kHead_EthmoidBone,kHead_MaxillaLeft,kHead_MaxillaRight"
+kHead_InferiorNasalConchaeLeft,21,"kRegion_Face,kRegion_Head",Nasal Conchae,left,,Left Nasal Conchae,,,,kHead_LacrimalBoneLeft
+kHead_InferiorNasalConchaeRight,22,"kRegion_Face,kRegion_Head",Nasal Conchae,right,,Right Nasal Conchae,,,,kHead_LacrimalBoneRight
+kEar_MalleusLeft,23,"kRegion_Ear,kRegion_EarLeft",Malleus,left,,Left Malleus,,,,"kEar_IncusLeft,kEar_StapesLeft,kHead_TemporalBoneLeft"
+kEar_MalleusRight,24,"kRegion_Ear,kRegion_EarRight",Malleus,right,,Right Malleus,,,,"kEar_IncusRight,kEar_StapesRight,kHead_TemporalBoneRight"
+kEar_IncusLeft,25,"kRegion_Ear,kRegion_EarLeft",Incus,left,,Left Incus,,,,"kEar_MalleusLeft,kEar_StapesLeft,kHead_TemporalBoneLeft"
+kEar_IncusRight,26,"kRegion_Ear,kRegion_EarRight",Incus,right,,Right Incus,,,,"kEar_MalleusRight,kEar_StapesRight,kHead_TemporalBoneRight"
+kEar_StapesLeft,27,"kRegion_Ear,kRegion_EarLeft",Stapes,left,,Left Stapes,,,,"kEar_MalleusLeft,kEar_IncusLeft,kHead_TemporalBoneLeft"
+kEar_StapesRight,28,"kRegion_Ear,kRegion_EarRight",Stapes,right,,Right Stapes,,,,"kEar_MalleusRight,kEar_IncusRight,kHead_TemporalBoneRight"
+kThroat_Hyoid,29,kRegion_Neck,Hyoid,,,Hyoid,,,,
+kShoulder_ScapulaLeft,30,"kRegion_ShoulderLeft,kRegion_Shoulder",Scapula,left,,Left Scapula,,,"kShoulder_ClavicleLeft,kArm_HumerusLeft",
+kShoulder_ScapulaRight,31,kRegion_ShoulderRight,Scapula,right,,Right Scapula,,,"kShoulder_ClavicleRight,kArm_HumerusRight",
+kShoulder_ClavicleLeft,32,"kRegion_ShoulderLeft,kRegion_Shoulder",Clavicle,left,,Left Clavicle,,kChest_Sternum,kShoulder_ScapulaLeft,
+kShoulder_ClavicleRight,33,kRegion_ShoulderRight,Clavicle,right,,Right Clavicle,,kChest_Sternum,kShoulder_ScapulaRight,
+kChest_Sternum,34,kRegion_Chest,Sternum,,,Sternum,,,"kShoulder_ClavicleLeft,kShoulder_ClavicleRight,kChest_Rib01Left,kChest_Rib02Left,kChest_Rib03Left,kChest_Rib04Left,kChest_Rib05Left,kChest_Rib06Left,kChest_Rib07Left,kChest_Rib01Right,kChest_Rib02Right,kChest_Rib03Right,kChest_Rib04Right,kChest_Rib05Right,kChest_Rib06Right,kChest_Rib07Right",
+kChest_Rib01Left,35,"kRegion_Chest,kRegion_RibcageLeft",Rib 1,left,,Left Rib 1,,"kChest_Sternum,kVertebral_ThoracicVertebrae01",,kChest_Rib02Left
+kChest_Rib02Left,36,"kRegion_Chest,kRegion_RibcageLeft",Rib 2,left,,Left Rib 2,,"kChest_Sternum,kVertebral_ThoracicVertebrae02",,"kChest_Rib01Left,kChest_Rib03Left"
+kChest_Rib03Left,37,"kRegion_Chest,kRegion_RibcageLeft",Rib 3,left,,Left Rib 3,,"kChest_Sternum,kVertebral_ThoracicVertebrae03",,"kChest_Rib02Left,kChest_Rib04Left"
+kChest_Rib04Left,38,"kRegion_Chest,kRegion_RibcageLeft",Rib 4,left,,Left Rib 4,,"kChest_Sternum,kVertebral_ThoracicVertebrae04",,"kChest_Rib03Left,kChest_Rib05Left"
+kChest_Rib05Left,39,"kRegion_Chest,kRegion_RibcageLeft",Rib 5,left,,Left Rib 5,,"kChest_Sternum,kVertebral_ThoracicVertebrae05",,"kChest_Rib04Left,kChest_Rib06Left"
+kChest_Rib06Left,40,"kRegion_Chest,kRegion_RibcageLeft",Rib 6,left,,Left Rib 6,,"kChest_Sternum,kVertebral_ThoracicVertebrae06",,"kChest_Rib05Left,kChest_Rib07Left"
+kChest_Rib07Left,41,"kRegion_Chest,kRegion_RibcageLeft",Rib 7,left,,Left Rib 7,,"kChest_Sternum,kVertebral_ThoracicVertebrae07",,"kChest_Rib06Left,kChest_Rib08Left"
+kChest_Rib08Left,42,"kRegion_Chest,kRegion_RibcageLeft",Rib 8,left,,Left Rib 8,,kVertebral_ThoracicVertebrae08,,"kChest_Rib07Left,kChest_Rib09Left"
+kChest_Rib09Left,43,"kRegion_Chest,kRegion_RibcageLeft",Rib 9,left,,Left Rib 9,,kVertebral_ThoracicVertebrae09,,"kChest_Rib08Left,kChest_Rib10Left"
+kChest_Rib10Left,44,"kRegion_Chest,kRegion_RibcageLeft",Rib 10,left,,Left Rib 10,,kVertebral_ThoracicVertebrae10,,"kChest_Rib09Left,kChest_Rib11Left"
+kChest_Rib11Left,45,"kRegion_Chest,kRegion_RibcageLeft",Rib 11,left,,Left Rib 11,,kVertebral_ThoracicVertebrae11,,"kChest_Rib10Left,kChest_Rib12Left"
+kChest_Rib12Left,46,"kRegion_Chest,kRegion_RibcageLeft",Rib 12,left,,Left Rib 12,,kVertebral_ThoracicVertebrae12,,kChest_Rib11Left
+kChest_Rib01Right,47,"kRegion_Chest,kRegion_RibcageRight",Rib 1,right,,Right Rib 1,,"kChest_Sternum,kVertebral_ThoracicVertebrae01",,kChest_Rib02Right
+kChest_Rib02Right,48,"kRegion_Chest,kRegion_RibcageRight",Rib 2,right,,Right Rib 2,,"kChest_Sternum,kVertebral_ThoracicVertebrae02",,"kChest_Rib01Right,kChest_Rib03Right"
+kChest_Rib03Right,49,"kRegion_Chest,kRegion_RibcageRight",Rib 3,right,,Right Rib 3,,"kChest_Sternum,kVertebral_ThoracicVertebrae03",,"kChest_Rib02Right,kChest_Rib04Right"
+kChest_Rib04Right,50,"kRegion_Chest,kRegion_RibcageRight",Rib 4,right,,Right Rib 4,,"kChest_Sternum,kVertebral_ThoracicVertebrae04",,"kChest_Rib03Right,kChest_Rib05Right"
+kChest_Rib05Right,51,"kRegion_Chest,kRegion_RibcageRight",Rib 5,right,,Right Rib 5,,"kChest_Sternum,kVertebral_ThoracicVertebrae05",,"kChest_Rib04Right,kChest_Rib06Right"
+kChest_Rib06Right,52,"kRegion_Chest,kRegion_RibcageRight",Rib 6,right,,Right Rib 6,,"kChest_Sternum,kVertebral_ThoracicVertebrae06",,"kChest_Rib05Right,kChest_Rib07Right"
+kChest_Rib07Right,53,"kRegion_Chest,kRegion_RibcageRight",Rib 7,right,,Right Rib 7,,"kChest_Sternum,kVertebral_ThoracicVertebrae07",,"kChest_Rib06Right,kChest_Rib08Right"
+kChest_Rib08Right,54,"kRegion_Chest,kRegion_RibcageRight",Rib 8,right,,Right Rib 8,,kVertebral_ThoracicVertebrae08,,"kChest_Rib07Right,kChest_Rib09Right"
+kChest_Rib09Right,55,"kRegion_Chest,kRegion_RibcageRight",Rib 9,right,,Right Rib 9,,kVertebral_ThoracicVertebrae09,,"kChest_Rib08Right,kChest_Rib10Right"
+kChest_Rib10Right,56,"kRegion_Chest,kRegion_RibcageRight",Rib 10,right,,Right Rib 10,,kVertebral_ThoracicVertebrae10,,"kChest_Rib09Right,kChest_Rib11Right"
+kChest_Rib11Right,57,"kRegion_Chest,kRegion_RibcageRight",Rib 11,right,,Right Rib 11,,kVertebral_ThoracicVertebrae11,,"kChest_Rib10Right,kChest_Rib12Right"
+kChest_Rib12Right,58,"kRegion_Chest,kRegion_RibcageRight",Rib 12,right,,Right Rib 12,,kVertebral_ThoracicVertebrae12,,kChest_Rib11Right
+kVertebral_CervicalVertebrae01,59,"kRegion_Spine,kRegion_Neck",C1,,,C1,Atlas,,,"kHead_OccipitalBone,kVertebral_CervicalVertebrae02"
+kVertebral_CervicalVertebrae02,60,"kRegion_Spine,kRegion_Neck",C2,,,C2,Axis,,,"kVertebral_CervicalVertebrae01,kVertebral_CervicalVertebrae03"
+kVertebral_CervicalVertebrae03,61,"kRegion_Spine,kRegion_Neck",C3,,,C3,,,,"kVertebral_CervicalVertebrae02,kVertebral_CervicalVertebrae04"
+kVertebral_CervicalVertebrae04,62,"kRegion_Spine,kRegion_Neck",C4,,,C4,,,,"kVertebral_CervicalVertebrae03,kVertebral_CervicalVertebrae05"
+kVertebral_CervicalVertebrae05,63,"kRegion_Spine,kRegion_Neck",C5,,,C5,,,,"kVertebral_CervicalVertebrae04,kVertebral_CervicalVertebrae06"
+kVertebral_CervicalVertebrae06,64,"kRegion_Spine,kRegion_Neck",C6,,,C6,,,,"kVertebral_CervicalVertebrae05,kVertebral_CervicalVertebrae07"
+kVertebral_CervicalVertebrae07,65,"kRegion_Spine,kRegion_Neck",C7,,,C7,,,,"kVertebral_CervicalVertebrae06,kVertebral_ThoracicVertebrae01"
+kVertebral_ThoracicVertebrae01,66,"kRegion_Spine,kRegion_Back",T1,,,T1,,,,"kVertebral_CervicalVertebrae07,kVertebral_ThoracicVertebrae02"
+kVertebral_ThoracicVertebrae02,67,"kRegion_Spine,kRegion_Back",T2,,,T2,,,,"kVertebral_ThoracicVertebrae01,kVertebral_ThoracicVertebrae03"
+kVertebral_ThoracicVertebrae03,68,"kRegion_Spine,kRegion_Back",T3,,,T3,,,,"kVertebral_ThoracicVertebrae02,kVertebral_ThoracicVertebrae04"
+kVertebral_ThoracicVertebrae04,69,"kRegion_Spine,kRegion_Back",T4,,,T4,,,,"kVertebral_ThoracicVertebrae03,kVertebral_ThoracicVertebrae05"
+kVertebral_ThoracicVertebrae05,70,"kRegion_Spine,kRegion_Back",T5,,,T5,,,,"kVertebral_ThoracicVertebrae04,kVertebral_ThoracicVertebrae06"
+kVertebral_ThoracicVertebrae06,71,"kRegion_Spine,kRegion_Back",T6,,,T6,,,,"kVertebral_ThoracicVertebrae05,kVertebral_ThoracicVertebrae07"
+kVertebral_ThoracicVertebrae07,72,"kRegion_Spine,kRegion_Back",T7,,,T7,,,,"kVertebral_ThoracicVertebrae06,kVertebral_ThoracicVertebrae08"
+kVertebral_ThoracicVertebrae08,73,"kRegion_Spine,kRegion_Back",T8,,,T8,,,,"kVertebral_ThoracicVertebrae07,kVertebral_ThoracicVertebrae09"
+kVertebral_ThoracicVertebrae09,74,"kRegion_Spine,kRegion_Back",T9,,,T9,,,,"kVertebral_ThoracicVertebrae08,kVertebral_ThoracicVertebrae10"
+kVertebral_ThoracicVertebrae10,75,"kRegion_Spine,kRegion_Back",T10,,,T10,,,,"kVertebral_ThoracicVertebrae09,kVertebral_ThoracicVertebrae11"
+kVertebral_ThoracicVertebrae11,76,"kRegion_Spine,kRegion_Back",T11,,,T11,,,,"kVertebral_ThoracicVertebrae10,kVertebral_ThoracicVertebrae12"
+kVertebral_ThoracicVertebrae12,77,"kRegion_Spine,kRegion_Back",T12,,,T12,,,,"kVertebral_ThoracicVertebrae11,kVertebral_LumbarVertebrae01"
+kVertebral_LumbarVertebrae01,78,"kRegion_Spine,kRegion_Back",L1,,,L1,,,,"kVertebral_ThoracicVertebrae12,kVertebral_LumbarVertebrae02"
+kVertebral_LumbarVertebrae02,79,"kRegion_Spine,kRegion_Back",L2,,,L2,,,,"kVertebral_LumbarVertebrae01,kVertebral_LumbarVertebrae03"
+kVertebral_LumbarVertebrae03,80,"kRegion_Spine,kRegion_Back",L3,,,L3,,,,"kVertebral_LumbarVertebrae02,kVertebral_LumbarVertebrae04"
+kVertebral_LumbarVertebrae04,81,"kRegion_Spine,kRegion_Back",L4,,,L4,,,,"kVertebral_LumbarVertebrae03,kVertebral_LumbarVertebrae05"
+kVertebral_LumbarVertebrae05,82,"kRegion_Spine,kRegion_Back",L5,,,L5,,,,"kVertebral_LumbarVertebrae04,kVertebral_SacralVertebrae"
+kVertebral_SacralVertebrae,83,"kRegion_Spine,kRegion_Pelvis",Sacrum,,,Sacrum,,,,"kVertebral_LumbarVertebrae05,kVertebral_CoccygealVertebrae,kPelvis_InnominateBoneLeft,kPelvis_InnominateBoneRight"
+kVertebral_CoccygealVertebrae,84,"kRegion_Spine,kRegion_Pelvis",Coccyx,,,Coccyx,,,,kVertebral_SacralVertebrae
+kArm_HumerusLeft,85,"kRegion_Arm,kRegion_ArmLeft",Humerus,left,,Left Humerus,,kShoulder_ScapulaLeft,"kArm_RadiusLeft,kArm_UlnaLeft",
+kArm_HumerusRight,86,"kRegion_Arm,kRegion_ArmRight",Humerus,right,,Right Humerus,,kShoulder_ScapulaRight,"kArm_RadiusRight,kArm_UlnaRight",
+kArm_RadiusLeft,87,"kRegion_Arm,kRegion_ArmLeft",Radius,left,,Left Radius,,kArm_HumerusLeft,"kHand_ScaphoidBoneLeft,kHand_LunateBoneLeft",kArm_UlnaLeft
+kArm_RadiusRight,88,"kRegion_Arm,kRegion_ArmRight",Radius,right,,Right Radius,,kArm_HumerusRight,"kHand_ScaphoidBoneRight,kHand_LunateBoneRight",kArm_UlnaRight
+kArm_UlnaLeft,89,"kRegion_Arm,kRegion_ArmLeft",Ulna,left,,Left Ulna,,kArm_HumerusLeft,kHand_LunateBoneLeft,kArm_RadiusLeft
+kArm_UlnaRight,90,"kRegion_Arm,kRegion_ArmRight",Ulna,right,,Right Ulna,,kArm_HumerusRight,kHand_LunateBoneRight,kArm_RadiusRight
+kHand_ScaphoidBoneLeft,91,"kRegion_Hand,kRegion_HandLeft",Scaphoid,left,,Left Scaphoid Bone,,kArm_RadiusLeft,"kHand_TrapeziumLeft,kHand_TrapezoidBoneLeft,kHand_CapitateBoneLeft",kHand_LunateBoneLeft
+kHand_ScaphoidBoneRight,92,"kRegion_Hand,kRegion_HandRight",Scaphoid,right,,Right Scaphoid Bone,,kArm_RadiusRight,"kHand_TrapeziumLeft,kHand_TrapezoidBoneLeft,kHand_CapitateBoneLeft",kHand_LunateBoneRight
+kHand_LunateBoneLeft,93,"kRegion_Hand,kRegion_HandLeft",Lunate,left,,Left Lunate Bone,,"kArm_RadiusLeft,kArm_UlnaLeft","kHand_CapitateBoneLeft,kHand_HamateBoneLeft,kHand_TriquetralBoneLeft",kHand_ScaphoidBoneLeft
+kHand_LunateBoneRight,94,"kRegion_Hand,kRegion_HandRight",Lunate,right,,Right Lunate Bone,,"kArm_UlnaRight,kArm_RadiusRight","kHand_CapitateBoneRight,kHand_HamateBoneRight,kHand_TriquetralBoneRight",kHand_ScaphoidBoneRight
+kHand_TriquetralBoneLeft,95,"kRegion_Hand,kRegion_HandLeft",Triquetral,left,,Left Triquetral Bone,,kHand_LunateBoneLeft,"kHand_PisiformBoneLeft,kHand_HamateBoneLeft",
+kHand_TriquetralBoneRight,96,"kRegion_Hand,kRegion_HandRight",Triquetral,right,,Right Triquetral Bone,,kHand_LunateBoneRight,"kHand_PisiformBoneRight,kHand_HamateBoneRight",
+kHand_PisiformBoneLeft,97,"kRegion_Hand,kRegion_HandLeft",Pisiform,left,,Left Pisiform Bone,,kHand_TriquetralBoneLeft,kHand_HamateBoneLeft,
+kHand_PisiformBoneRight,98,"kRegion_Hand,kRegion_HandRight",Pisiform,right,,Right Pisiform Bone,,kHand_TriquetralBoneRight,kHand_HamateBoneRight,
+kHand_TrapeziumLeft,99,"kRegion_Hand,kRegion_HandLeft",Trapezium,left,,Left Trapezium,,kHand_ScaphoidBoneLeft,kHand_MetacarpalBone01Left,kHand_TrapezoidBoneLeft
+kHand_TrapeziumRight,100,"kRegion_Hand,kRegion_HandRight",Trapezium,right,,Right Trapezium,,kHand_ScaphoidBoneRight,kHand_MetacarpalBone01Right,kHand_TrapezoidBoneRight
+kHand_TrapezoidBoneLeft,101,"kRegion_Hand,kRegion_HandLeft",Trapezoid,left,,Left Trapezoid Bone,,kHand_ScaphoidBoneLeft,kHand_MetacarpalBone02Left,"kHand_TrapeziumLeft,kHand_CapitateBoneLeft"
+kHand_TrapezoidBoneRight,102,"kRegion_Hand,kRegion_HandRight",Trapezoid,right,,Right Trapezoid Bone,,kHand_ScaphoidBoneRight,kHand_MetacarpalBone02Right,"kHand_TrapeziumRight,kHand_CapitateBoneRight"
+kHand_CapitateBoneLeft,103,"kRegion_Hand,kRegion_HandLeft",Capitate,left,,Left Capitate Bone,,"kHand_ScaphoidBoneLeft,kHand_LunateBoneLeft",kHand_MetacarpalBone03Left,"kHand_TrapezoidBoneLeft,kHand_HamateBoneLeft"
+kHand_CapitateBoneRight,104,"kRegion_Hand,kRegion_HandRight",Capitate,right,,Right Capitate Bone,,"kHand_ScaphoidBoneRight,kHand_LunateBoneRight",kHand_MetacarpalBone03Right,"kHand_TrapezoidBoneRight,kHand_HamateBoneRight"
+kHand_HamateBoneLeft,105,"kRegion_Hand,kRegion_HandLeft",Hamate,left,,Left Hamate Bone,,"kHand_LunateBoneLeft,kHand_TriquetralBoneLeft,kHand_PisiformBoneLeft","kHand_MetacarpalBone04Left,kHand_MetacarpalBone05Left",kHand_CapitateBoneLeft
+kHand_HamateBoneRight,106,"kRegion_Hand,kRegion_HandRight",Hamate,right,,Right Hamate Bone,,"kHand_LunateBoneRight,kHand_TriquetralBoneRight,kHand_PisiformBoneRight","kHand_MetacarpalBone04Right,kHand_MetacarpalBone05Right",kHand_CapitateBoneRight
+kHand_MetacarpalBone01Left,107,"kRegion_Hand,kRegion_HandLeft",Metacarpal 1,left,,Left Metacarpal 1 Bone,,kHand_TrapeziumLeft,kHand_DistalPhalanx01Left,
+kHand_MetacarpalBone02Left,108,"kRegion_Hand,kRegion_HandLeft",Metacarpal 2,left,,Left Metacarpal 2 Bone,,kHand_TrapezoidBoneLeft,kHand_DistalPhalanx02Left,
+kHand_MetacarpalBone03Left,109,"kRegion_Hand,kRegion_HandLeft",Metacarpal 3,left,,Left Metacarpal 3 Bone,,kHand_CapitateBoneLeft,kHand_DistalPhalanx03Left,
+kHand_MetacarpalBone04Left,110,"kRegion_Hand,kRegion_HandLeft",Metacarpal 4,left,,Left Metacarpal 4 Bone,,kHand_HamateBoneLeft,kHand_DistalPhalanx04Left,
+kHand_MetacarpalBone05Left,111,"kRegion_Hand,kRegion_HandLeft",Metacarpal 5,left,,Left Metacarpal 5 Bone,,kHand_HamateBoneLeft,kHand_DistalPhalanx05Left,
+kHand_MetacarpalBone01Right,112,"kRegion_Hand,kRegion_HandRight",Metacarpal 1,right,,Right Metacarpal 1 Bone,,kHand_TrapeziumRight,kHand_DistalPhalanx01Right,
+kHand_MetacarpalBone02Right,113,"kRegion_Hand,kRegion_HandRight",Metacarpal 2,right,,Right Metacarpal 2 Bone,,kHand_TrapezoidBoneRight,kHand_DistalPhalanx02Right,
+kHand_MetacarpalBone03Right,114,"kRegion_Hand,kRegion_HandRight",Metacarpal 3,right,,Right Metacarpal 3 Bone,,kHand_CapitateBoneRight,kHand_DistalPhalanx03Right,
+kHand_MetacarpalBone04Right,115,"kRegion_Hand,kRegion_HandRight",Metacarpal 4,right,,Right Metacarpal 4 Bone,,kHand_HamateBoneRight,kHand_DistalPhalanx04Right,
+kHand_MetacarpalBone05Right,116,"kRegion_Hand,kRegion_HandRight",Metacarpal 5,right,,Right Metacarpal 5 Bone,,kHand_HamateBoneRight,kHand_DistalPhalanx05Right,
+kHand_ProximalPhalanx01Left,117,"kRegion_Hand,kRegion_HandLeft",Phalanx 1,left,Proximal,Left Proximal Phalanx 1,Thumb,kHand_MetacarpalBone01Left,kHand_DistalPhalanx01Left,
+kHand_ProximalPhalanx02Left,118,"kRegion_Hand,kRegion_HandLeft",Phalanx 2,left,Proximal,Left Proximal Phalanx 2,Index Finger,kHand_MetacarpalBone02Left,kHand_IntermediatePhalanx02Left,
+kHand_ProximalPhalanx03Left,119,"kRegion_Hand,kRegion_HandLeft",Phalanx 3,left,Proximal,Left Proximal Phalanx 3,Middle Finger,kHand_MetacarpalBone03Left,kHand_IntermediatePhalanx03Left,
+kHand_ProximalPhalanx04Left,120,"kRegion_Hand,kRegion_HandLeft",Phalanx 4,left,Proximal,Left Proximal Phalanx 4,Ring Finger,kHand_MetacarpalBone04Left,kHand_IntermediatePhalanx04Left,
+kHand_ProximalPhalanx05Left,121,"kRegion_Hand,kRegion_HandLeft",Phalanx 5,left,Proximal,Left Proximal Phalanx 5,Little Finger,kHand_MetacarpalBone05Left,kHand_IntermediatePhalanx05Left,
+kHand_ProximalPhalanx01Right,122,"kRegion_Hand,kRegion_HandRight",Phalanx 1,right,Proximal,Right Proximal Phalanx 1,Thumb,kHand_MetacarpalBone01Right,kHand_DistalPhalanx01Right,
+kHand_ProximalPhalanx02Right,123,"kRegion_Hand,kRegion_HandRight",Phalanx 2,right,Proximal,Right Proximal Phalanx 2,Index Finger,kHand_MetacarpalBone02Right,kHand_IntermediatePhalanx02Right,
+kHand_ProximalPhalanx03Right,124,"kRegion_Hand,kRegion_HandRight",Phalanx 3,right,Proximal,Right Proximal Phalanx 3,Middle Finger,kHand_MetacarpalBone03Right,kHand_IntermediatePhalanx03Right,
+kHand_ProximalPhalanx04Right,125,"kRegion_Hand,kRegion_HandRight",Phalanx 4,right,Proximal,Right Proximal Phalanx 4,Ring Finger,kHand_MetacarpalBone04Right,kHand_IntermediatePhalanx04Right,
+kHand_ProximalPhalanx05Right,126,"kRegion_Hand,kRegion_HandRight",Phalanx 5,right,Proximal,Right Proximal Phalanx 5,Little Finger,kHand_MetacarpalBone05Right,kHand_IntermediatePhalanx05Right,
+kHand_IntermediatePhalanx05Left,127,"kRegion_Hand,kRegion_HandLeft",Phalanx 5,left,Intermediate,Left Intermediate Phalanx 5,Little Finger,kHand_ProximalPhalanx05Left,kHand_DistalPhalanx05Left,
+kHand_IntermediatePhalanx02Left,128,"kRegion_Hand,kRegion_HandLeft",Phalanx 2,left,Intermediate,Left Intermediate Phalanx 2,Index Finger,kHand_ProximalPhalanx02Left,kHand_DistalPhalanx02Left,
+kHand_IntermediatePhalanx03Left,129,"kRegion_Hand,kRegion_HandLeft",Phalanx 3,left,Intermediate,Left Intermediate Phalanx 3,Middle Finger,kHand_ProximalPhalanx03Left,kHand_DistalPhalanx03Left,
+kHand_IntermediatePhalanx04Left,130,"kRegion_Hand,kRegion_HandLeft",Phalanx 4,left,Intermediate,Left Intermediate Phalanx 4,Ring Finger,kHand_ProximalPhalanx04Left,kHand_DistalPhalanx04Left,
+kHand_IntermediatePhalanx05Right,131,"kRegion_Hand,kRegion_HandRight",Phalanx 5,right,Intermediate,Right Intermediate Phalanx 5,Little Finger,kHand_ProximalPhalanx05Right,kHand_DistalPhalanx05Right,
+kHand_IntermediatePhalanx02Right,132,"kRegion_Hand,kRegion_HandRight",Phalanx 2,right,Intermediate,Right Intermediate Phalanx 2,Index Finger,kHand_ProximalPhalanx02Right,kHand_DistalPhalanx02Right,
+kHand_IntermediatePhalanx03Right,133,"kRegion_Hand,kRegion_HandRight",Phalanx 3,right,Intermediate,Right Intermediate Phalanx 3,Middle Finger,kHand_ProximalPhalanx03Right,kHand_DistalPhalanx03Right,
+kHand_IntermediatePhalanx04Right,134,"kRegion_Hand,kRegion_HandRight",Phalanx 4,right,Intermediate,Right Intermediate Phalanx 4,Ring Finger,kHand_ProximalPhalanx05Right,kHand_DistalPhalanx04Right,
+kHand_DistalPhalanx01Left,135,"kRegion_Hand,kRegion_HandLeft",Phalanx 1,left,Distal,Left Distal Phalanx 1,Thumb,kHand_ProximalPhalanx01Left,,
+kHand_DistalPhalanx02Left,136,"kRegion_Hand,kRegion_HandLeft",Phalanx 2,left,Distal,Left Distal Phalanx 2,Index Finger,kHand_IntermediatePhalanx02Left,,
+kHand_DistalPhalanx03Left,137,"kRegion_Hand,kRegion_HandLeft",Phalanx 3,left,Distal,Left Distal Phalanx 3,Middle Finger,kHand_IntermediatePhalanx03Left,,
+kHand_DistalPhalanx04Left,138,"kRegion_Hand,kRegion_HandLeft",Phalanx 4,left,Distal,Left Distal Phalanx 4,Ring Finger,kHand_IntermediatePhalanx04Left,,
+kHand_DistalPhalanx05Left,139,"kRegion_Hand,kRegion_HandLeft",Phalanx 5,left,Distal,Left Distal Phalanx 5,Little Finger,kHand_IntermediatePhalanx05Left,,
+kHand_DistalPhalanx01Right,140,"kRegion_Hand,kRegion_HandRight",Phalanx 1,right,Distal,Right Distal Phalanx 1,Thumb,kHand_ProximalPhalanx01Right,,
+kHand_DistalPhalanx02Right,141,"kRegion_Hand,kRegion_HandRight",Phalanx 2,right,Distal,Right Distal Phalanx 2,Index Finger,kHand_IntermediatePhalanx02Right,,
+kHand_DistalPhalanx03Right,142,"kRegion_Hand,kRegion_HandRight",Phalanx 3,right,Distal,Right Distal Phalanx 3,Middle Finger,kHand_IntermediatePhalanx03Right,,
+kHand_DistalPhalanx04Right,143,"kRegion_Hand,kRegion_HandRight",Phalanx 4,right,Distal,Right Distal Phalanx 4,Ring Finger,kHand_IntermediatePhalanx04Right,,
+kHand_DistalPhalanx05Right,144,"kRegion_Hand,kRegion_HandRight",Phalanx 5,right,Distal,Right Distal Phalanx 5,Little Finger,kHand_IntermediatePhalanx05Right,,
+kPelvis_InnominateBoneLeft,145,kRegion_Pelvis,Innominate,left,,Left Innominate Bone,,,kLeg_FemurLeft,kVertebral_SacralVertebrae
+kPelvis_InnominateBoneRight,146,kRegion_Pelvis,Innominate,right,,Right Innominate Bone,,,kLeg_FemurRight,kVertebral_SacralVertebrae
+kLeg_FemurLeft,147,"kRegion_Leg,kRegion_LegLeft",Femur,left,,Left Femur,,kPelvis_InnominateBoneLeft,"kLeg_PatellaLeft,kLeg_TibiaLeft,kLeg_FibulaLeft",
+kLeg_FemurRight,148,"kRegion_Leg,kRegion_LegRight",Femur,right,,Right Femur,,kPelvis_InnominateBoneRight,"kLeg_PatellaRight,kLeg_TibiaRight,kLeg_FibulaRight",
+kLeg_PatellaLeft,149,"kRegion_Leg,kRegion_LegLeft",Patella,left,,Left Patella,,kLeg_FemurLeft,"kLeg_TibiaLeft,kLeg_FibulaLeft",
+kLeg_PatellaRight,150,"kRegion_Leg,kRegion_LegRight",Patella,right,,Right Patella,,kLeg_FemurRight,"kLeg_TibiaRight,kLeg_FibulaRight",
+kLeg_TibiaLeft,151,"kRegion_Leg,kRegion_LegLeft",Tibia,left,,Left Tibia,,"kLeg_FemurLeft,kLeg_PatellaLeft","kFoot_CalcaneusLeft,kFoot_TalusLeft",kLeg_FibulaLeft
+kLeg_TibiaRight,152,"kRegion_Leg,kRegion_LegRight",Tibia,right,,Right Tibia,,"kLeg_FemurRight,kLeg_PatellaRight","kFoot_CalcaneusRight,kFoot_TalusRight",kLeg_FibulaRight
+kLeg_FibulaLeft,153,"kRegion_Leg,kRegion_LegLeft",Fibula,left,,Left Fibula,,"kLeg_FemurLeft,kLeg_PatellaLeft","kFoot_CalcaneusLeft,kFoot_TalusLeft",kLeg_TibiaLeft
+kLeg_FibulaRight,154,"kRegion_Leg,kRegion_LegRight",Fibula,right,,Right Fibula,,"kLeg_FemurRight,kLeg_PatellaRight","kFoot_CalcaneusRight,kFoot_TalusRight",kLeg_TibiaRight
+kFoot_CalcaneusLeft,155,"kRegion_Foot,kRegion_FootLeft",Calcaneus,left,,Left Calcaneus,,"kLeg_FibulaLeft,kLeg_TibiaLeft,kFoot_TalusLeft",kFoot_CuboidBoneLeft,
+kFoot_CalcaneusRight,156,"kRegion_Foot,kRegion_FootRight",Calcaneus,right,,Right Calcaneus,,"kLeg_FibulaRight,kLeg_TibiaRight,kFoot_TalusRight",kFoot_CuboidBoneRight,
+kFoot_TalusLeft,157,"kRegion_Foot,kRegion_FootLeft",Talus,left,,Left Talus,,"kLeg_FibulaLeft,kLeg_TibiaLeft","kFoot_CalcaneusLeft,kFoot_CuboidBoneLeft,kFoot_NavicularBoneLeft",
+kFoot_TalusRight,158,"kRegion_Foot,kRegion_FootRight",Talus,right,,Right Talus,,"kLeg_FibulaRight,kLeg_TibiaRight","kFoot_CalcaneusRight,kFoot_CuboidBoneRight,kFoot_NavicularBoneRight",
+kFoot_NavicularBoneLeft,159,"kRegion_Foot,kRegion_FootLeft",Navicular,left,,Left Navicular Bone,,"kFoot_CalcaneusLeft,kFoot_TalusLeft","kFoot_MedialCuneiformBoneLeft,kFoot_IntermediateCuneiformBoneLeft,kFoot_LateralCuneiformBoneLeft",kFoot_CuboidBoneLeft
+kFoot_NavicularBoneRight,160,"kRegion_Foot,kRegion_FootRight",Navicular,right,,Right Navicular Bone,,"kFoot_CalcaneusRight,kFoot_TalusRight","kFoot_MedialCuneiformBoneRight,kFoot_IntermediateCuneiformBoneRight,kFoot_LateralCuneiformBoneRight",kFoot_CuboidBoneRight
+kFoot_MedialCuneiformBoneLeft,161,"kRegion_Foot,kRegion_FootLeft",Cuneiform,left,Medial,Left Medial Cuneiform Bone,,kFoot_NavicularBoneLeft,kFoot_MetatarsalBone01Left,kFoot_IntermediateCuneiformBoneLeft
+kFoot_MedialCuneiformBoneRight,162,"kRegion_Foot,kRegion_FootRight",Cuneiform,right,Medial,Right Medial Cuneiform Bone,,kFoot_NavicularBoneRight,kFoot_MetatarsalBone01Right,kFoot_IntermediateCuneiformBoneRight
+kFoot_IntermediateCuneiformBoneLeft,163,"kRegion_Foot,kRegion_FootLeft",Cuneiform,left,Intermediate,Left Intermediate Cuneiform Bone,,kFoot_NavicularBoneLeft,kFoot_MetatarsalBone02Left,"kFoot_MedialCuneiformBoneLeft,kFoot_LateralCuneiformBoneLeft"
+kFoot_IntermediateCuneiformBoneRight,164,"kRegion_Foot,kRegion_FootRight",Cuneiform,right,Intermediate,Right Intermediate Cuneiform Bone,,kFoot_NavicularBoneRight,kFoot_MetatarsalBone02Right,"kFoot_MedialCuneiformBoneRight,kFoot_LateralCuneiformBoneRight"
+kFoot_LateralCuneiformBoneLeft,165,"kRegion_Foot,kRegion_FootLeft",Cuneiform,left,Lateral,Left Lateral Cuneiform Bone,,kFoot_NavicularBoneLeft,kFoot_MetatarsalBone03Left,kFoot_IntermediateCuneiformBoneLeft
+kFoot_LateralCuneiformBoneRight,166,"kRegion_Foot,kRegion_FootRight",Cuneiform,right,Lateral,Right Lateral Cuneiform Bone,,kFoot_NavicularBoneRight,kFoot_MetatarsalBone03Right,kFoot_IntermediateCuneiformBoneRight
+kFoot_CuboidBoneLeft,167,"kRegion_Foot,kRegion_FootLeft",Cuboid,left,,Left Cuboid Bone,,kFoot_CalcaneusLeft,"kFoot_MetatarsalBone04Left,kFoot_MetatarsalBone05Left","kFoot_NavicularBoneLeft,kFoot_LateralCuneiformBoneLeft"
+kFoot_CuboidBoneRight,168,"kRegion_Foot,kRegion_FootRight",Cuboid,right,,Right Cuboid Bone,,kFoot_CalcaneusRight,"kFoot_MetatarsalBone04Right,kFoot_MetatarsalBone05Right","kFoot_NavicularBoneRight,kFoot_LateralCuneiformBoneRight"
+kFoot_MetatarsalBone01Left,169,"kRegion_Foot,kRegion_FootLeft",Metatarsal 1,left,,Left Metatarsal 1 Bone,,kFoot_MedialCuneiformBoneLeft,,
+kFoot_MetatarsalBone02Left,170,"kRegion_Foot,kRegion_FootLeft",Metatarsal 2,left,,Left Metatarsal 2 Bone,,kFoot_IntermediateCuneiformBoneLeft,,
+kFoot_MetatarsalBone03Left,171,"kRegion_Foot,kRegion_FootLeft",Metatarsal 3,left,,Left Metatarsal 3 Bone,,kFoot_LateralCuneiformBoneLeft,,
+kFoot_MetatarsalBone04Left,172,"kRegion_Foot,kRegion_FootLeft",Metatarsal 4,left,,Left Metatarsal 4 Bone,,kFoot_CuboidBoneLeft,,
+kFoot_MetatarsalBone05Left,173,"kRegion_Foot,kRegion_FootLeft",Metatarsal 5,left,,Left Metatarsal 5 Bone,,kFoot_CuboidBoneLeft,,
+kFoot_MetatarsalBone01Right,174,"kRegion_Foot,kRegion_FootRight",Metatarsal 1,right,,Right Metatarsal 1 Bone,,kFoot_MedialCuneiformBoneRight,,
+kFoot_MetatarsalBone02Right,175,"kRegion_Foot,kRegion_FootRight",Metatarsal 2,right,,Right Metatarsal 2 Bone,,kFoot_IntermediateCuneiformBoneRight,,
+kFoot_MetatarsalBone03Right,176,"kRegion_Foot,kRegion_FootRight",Metatarsal 3,right,,Right Metatarsal 3 Bone,,kFoot_LateralCuneiformBoneRight,,
+kFoot_MetatarsalBone04Right,177,"kRegion_Foot,kRegion_FootRight",Metatarsal 4,right,,Right Metatarsal 4 Bone,,kFoot_CuboidBoneRight,,
+kFoot_MetatarsalBone05Right,178,"kRegion_Foot,kRegion_FootRight",Metatarsal 5,right,,Right Metatarsal 5 Bone,,kFoot_CuboidBoneRight,,
+kFoot_ProximalPhalanx01Left,179,"kRegion_Foot,kRegion_FootLeft",Phalanx 1,left,Proximal,Left Proximal Phalanx 1,,kFoot_MetatarsalBone01Left,kFoot_DistalPhalanx01Left,
+kFoot_ProximalPhalanx02Left,180,"kRegion_Foot,kRegion_FootLeft",Phalanx 2,left,Proximal,Left Proximal Phalanx 2,,kFoot_MetatarsalBone02Left,kFoot_IntermediatePhalanx02Left,
+kFoot_ProximalPhalanx03Left,181,"kRegion_Foot,kRegion_FootLeft",Phalanx 3,left,Proximal,Left Proximal Phalanx 3,,kFoot_MetatarsalBone03Left,kFoot_IntermediatePhalanx03Left,
+kFoot_ProximalPhalanx04Left,182,"kRegion_Foot,kRegion_FootLeft",Phalanx 4,left,Proximal,Left Proximal Phalanx 4,,kFoot_MetatarsalBone04Left,kFoot_IntermediatePhalanx04Left,
+kFoot_ProximalPhalanx05Left,183,"kRegion_Foot,kRegion_FootLeft",Phalanx 5,left,Proximal,Left Proximal Phalanx 5,,kFoot_MetatarsalBone05Left,kFoot_IntermediatePhalanx05Left,
+kFoot_ProximalPhalanx01Right,184,"kRegion_Foot,kRegion_FootRight",Phalanx 1,right,Proximal,Right Proximal Phalanx 1,,kFoot_MetatarsalBone01Right,kFoot_DistalPhalanx01Left,
+kFoot_ProximalPhalanx02Right,185,"kRegion_Foot,kRegion_FootRight",Phalanx 2,right,Proximal,Right Proximal Phalanx 2,,kFoot_MetatarsalBone02Right,kFoot_IntermediatePhalanx02Right,
+kFoot_ProximalPhalanx03Right,186,"kRegion_Foot,kRegion_FootRight",Phalanx 3,right,Proximal,Right Proximal Phalanx 3,,kFoot_MetatarsalBone03Right,kFoot_IntermediatePhalanx03Right,
+kFoot_ProximalPhalanx04Right,187,"kRegion_Foot,kRegion_FootRight",Phalanx 4,right,Proximal,Right Proximal Phalanx 4,,kFoot_MetatarsalBone04Right,kFoot_IntermediatePhalanx04Right,
+kFoot_ProximalPhalanx05Right,188,"kRegion_Foot,kRegion_FootRight",Phalanx 5,right,Proximal,Right Proximal Phalanx 5,,kFoot_MetatarsalBone05Right,kFoot_IntermediatePhalanx05Right,
+kFoot_IntermediatePhalanx02Left,189,"kRegion_Foot,kRegion_FootLeft",Phalanx 1,left,Intermediate,Left Intermediate Phalanx 1,,kFoot_ProximalPhalanx02Left,kFoot_DistalPhalanx02Left,
+kFoot_IntermediatePhalanx03Left,190,"kRegion_Foot,kRegion_FootLeft",Phalanx 2,left,Intermediate,Left Intermediate Phalanx 2,,kFoot_ProximalPhalanx03Left,kFoot_DistalPhalanx03Left,
+kFoot_IntermediatePhalanx04Left,191,"kRegion_Foot,kRegion_FootLeft",Phalanx 3,left,Intermediate,Left Intermediate Phalanx 3,,kFoot_ProximalPhalanx04Left,kFoot_DistalPhalanx04Left,
+kFoot_IntermediatePhalanx05Left,192,"kRegion_Foot,kRegion_FootLeft",Phalanx 4,left,Intermediate,Left Intermediate Phalanx 4,,kFoot_ProximalPhalanx05Left,kFoot_DistalPhalanx05Left,
+kFoot_IntermediatePhalanx02Right,193,"kRegion_Foot,kRegion_FootRight",Phalanx 1,right,Intermediate,Right Intermediate Phalanx 1,,kFoot_ProximalPhalanx02Right,kFoot_DistalPhalanx02Right,
+kFoot_IntermediatePhalanx03Right,194,"kRegion_Foot,kRegion_FootRight",Phalanx 2,right,Intermediate,Right Intermediate Phalanx 2,,kFoot_ProximalPhalanx03Right,kFoot_DistalPhalanx03Right,
+kFoot_IntermediatePhalanx04Right,195,"kRegion_Foot,kRegion_FootRight",Phalanx 3,right,Intermediate,Right Intermediate Phalanx 3,,kFoot_ProximalPhalanx04Right,kFoot_DistalPhalanx04Right,
+kFoot_IntermediatePhalanx05Right,196,"kRegion_Foot,kRegion_FootRight",Phalanx 4,right,Intermediate,Right Intermediate Phalanx 4,,kFoot_ProximalPhalanx05Right,kFoot_DistalPhalanx05Right,
+kFoot_DistalPhalanx01Left,197,"kRegion_Foot,kRegion_FootLeft",Phalanx 1,left,Distal,Left Distal Phalanx 1,,kFoot_ProximalPhalanx01Left,,
+kFoot_DistalPhalanx02Left,198,"kRegion_Foot,kRegion_FootLeft",Phalanx 2,left,Distal,Left Distal Phalanx 2,,kFoot_IntermediatePhalanx02Left,,
+kFoot_DistalPhalanx03Left,199,"kRegion_Foot,kRegion_FootLeft",Phalanx 3,left,Distal,Left Distal Phalanx 3,,kFoot_IntermediatePhalanx03Left,,
+kFoot_DistalPhalanx04Left,200,"kRegion_Foot,kRegion_FootLeft",Phalanx 4,left,Distal,Left Distal Phalanx 4,,kFoot_IntermediatePhalanx04Left,,
+kFoot_DistalPhalanx05Left,201,"kRegion_Foot,kRegion_FootLeft",Phalanx 5,left,Distal,Left Distal Phalanx 5,,kFoot_IntermediatePhalanx05Left,,
+kFoot_DistalPhalanx01Right,202,"kRegion_Foot,kRegion_FootRight",Phalanx 1,right,Distal,Right Distal Phalanx 1,,kFoot_ProximalPhalanx01Right,,
+kFoot_DistalPhalanx02Right,203,"kRegion_Foot,kRegion_FootRight",Phalanx 2,right,Distal,Right Distal Phalanx 2,,kFoot_IntermediatePhalanx02Right,,
+kFoot_DistalPhalanx03Right,204,"kRegion_Foot,kRegion_FootRight",Phalanx 3,right,Distal,Right Distal Phalanx 3,,kFoot_IntermediatePhalanx03Right,,
+kFoot_DistalPhalanx04Right,205,"kRegion_Foot,kRegion_FootRight",Phalanx 4,right,Distal,Right Distal Phalanx 4,,kFoot_IntermediatePhalanx04Right,,
+kFoot_DistalPhalanx05Right,206,"kRegion_Foot,kRegion_FootRight",Phalanx 5,right,Distal,Right Distal Phalanx 5,,kFoot_IntermediatePhalanx05Right,,
